@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { ArrowRight, Target, Eye, Award, Users, Globe, Factory } from "lucide-react";
 import icon from "@/assets/everhide-icon.jpeg";
-import heroGloves from "@/assets/hero-gloves.jpg";
+import heroGloves from "@/assets/about-our-story.png";
 
 const AboutPage = () => {
   const values = [
