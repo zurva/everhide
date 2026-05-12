@@ -1196,11 +1196,7 @@ const ProductDetailPage = () => {
                         <span
                           aria-hidden
                           className="w-4 h-4 rounded-full border border-border shadow-sm flex-shrink-0"
-                          style={
-                            sw.isMulti
-                              ? { background: `linear-gradient(135deg, ${sw.color} 50%, ${sw.second} 50%)` }
-                              : { backgroundColor: sw.color }
-                          }
+                          style={{ background: sw.background }}
                         />
                         {color}
                       </span>
@@ -1510,11 +1506,7 @@ const ProductDetailPage = () => {
                               <span
                                 aria-hidden
                                 className="w-4 h-4 rounded-full border border-border shadow-sm flex-shrink-0"
-                                style={
-                                  sw.isMulti
-                                    ? { background: `linear-gradient(135deg, ${sw.color} 50%, ${sw.second} 50%)` }
-                                    : { backgroundColor: sw.color }
-                                }
+                                style={{ background: sw.background }}
                               />
                               {color}
                             </span>
