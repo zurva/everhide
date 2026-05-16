@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Download } from "lucide-react";
+import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Download, FileText } from "lucide-react";
 import logo from "@/assets/everhide-logo.jpeg";
 
 const Footer = () => {
