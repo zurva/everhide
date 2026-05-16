@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Building2 } from "lucide-react";
 import heroBanner1 from "@/assets/hero-banner-1.png";
 import heroBanner2 from "@/assets/hero-banner-2.png";
 import heroBannerMobile from "@/assets/hero-banner-mobile.png";
@@ -71,6 +71,12 @@ const HeroSection = () => {
                 View Products
               </Button>
             </Link>
+            <a href="/company-profile.pdf" download target="_blank" rel="noopener noreferrer">
+              <Button size="lg" variant="outline" className="text-base bg-transparent border-white text-white hover:bg-white hover:text-secondary">
+                <Building2 className="mr-2 h-5 w-5" />
+                Company Profile
+              </Button>
+            </a>
           </div>
 
           {/* Slide indicators */}
