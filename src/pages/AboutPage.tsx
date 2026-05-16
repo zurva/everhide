@@ -3,7 +3,7 @@ import PageBanner from "@/components/PageBanner";
 import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { ArrowRight, Target, Eye, Award, Users, Globe, Factory } from "lucide-react";
+import { ArrowRight, Target, Eye, Award, Users, Globe, Factory, FileText } from "lucide-react";
 import icon from "@/assets/everhide-icon.jpeg";
 import heroGloves from "@/assets/about-our-story.png";
 
@@ -83,6 +83,14 @@ const AboutPage = () => {
                 EVER<span className="text-primary">HIDE</span> Global is built on clear communication, practical product development, and
                 dependable export handling, positioning us as a long-term supply partner, not just a transactional supplier.
               </p>
+              <div className="pt-2">
+                <a href="/company-profile.pdf" download target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" variant="outline">
+                    <FileText className="mr-2 h-5 w-5" />
+                    Download Company Profile
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
