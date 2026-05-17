@@ -180,6 +180,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <CatalogDownloadModal open={catalogOpen} onOpenChange={setCatalogOpen} />
     </footer>
   );
 };
