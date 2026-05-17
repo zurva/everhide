@@ -5,6 +5,7 @@ import logo from "@/assets/everhide-logo.jpeg";
 import CatalogDownloadModal from "@/components/CatalogDownloadModal";
 
 const Footer = () => {
+  const [catalogOpen, setCatalogOpen] = useState(false);
   const quickLinks = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
