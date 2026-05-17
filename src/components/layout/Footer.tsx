@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Download, FileText } from "lucide-react";
 import logo from "@/assets/everhide-logo.jpeg";
+import CatalogDownloadModal from "@/components/CatalogDownloadModal";
 
 const Footer = () => {
   const quickLinks = [
