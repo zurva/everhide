@@ -1,7 +1,7 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Download, FileText } from "lucide-react";
-
-const CATALOG_URL = "/everhide-catalog.pdf";
+import CatalogDownloadModal from "@/components/CatalogDownloadModal";
 
 interface CatalogCTAProps {
   heading?: string;
@@ -20,14 +20,18 @@ export const DownloadCatalogButton = ({
   variant?: "default" | "outline" | "secondary";
   className?: string;
   label?: string;
-}) => (
-  <a href={CATALOG_URL} download target="_blank" rel="noopener noreferrer">
-    <Button size={size} variant={variant} className={className}>
-      <Download className="mr-2 h-5 w-5" />
-      {label}
-    </Button>
-  </a>
-);
+}) => {
+  const [open, setOpen] = useState(false);
+  return (
+    <>
+      <Button size={size} variant={variant} className={className} onClick={() => setOpen(true)}>
+        <Download className="mr-2 h-5 w-5" />
+        {label}
+      </Button>
+      <CatalogDownloadModal open={open} onOpenChange={setOpen} />
+    </>
+  );
+};
 
 const CatalogCTA = ({
   heading = "Explore Our Product Range Before Requesting a Quote",

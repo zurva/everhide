@@ -1,8 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Linkedin, Instagram, Facebook, Download, FileText } from "lucide-react";
 import logo from "@/assets/everhide-logo.jpeg";
+import CatalogDownloadModal from "@/components/CatalogDownloadModal";
 
 const Footer = () => {
+  const [catalogOpen, setCatalogOpen] = useState(false);
   const quickLinks = [
     { name: "Home", path: "/" },
     { name: "About Us", path: "/about" },
@@ -26,16 +29,14 @@ const Footer = () => {
               EverHide Global is a Pakistan-based export and product development partner specializing in premium leather gloves for international B2B markets, serving brands, distributors, and importers across the US, Europe, and beyond.
             </p>
             <div className="flex flex-col gap-2">
-              <a
-                href="/everhide-catalog.pdf"
-                download
-                target="_blank"
-                rel="noopener noreferrer"
+              <button
+                type="button"
+                onClick={() => setCatalogOpen(true)}
                 className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors border border-primary/30 hover:border-primary px-4 py-2 rounded-md"
               >
                 <Download className="h-4 w-4" />
                 Download Product Catalog
-              </a>
+              </button>
               <a
                 href="/company-profile.pdf"
                 download
@@ -179,6 +180,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
+      <CatalogDownloadModal open={catalogOpen} onOpenChange={setCatalogOpen} />
     </footer>
   );
 };
