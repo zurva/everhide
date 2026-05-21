@@ -30,7 +30,7 @@ const HeroSection = () => {
       {slides.map((src, i) => (
         <div
           key={i}
-          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
+          className={`absolute inset-0 bg-contain md:bg-cover bg-right bg-bottom md:bg-center bg-no-repeat bg-secondary transition-opacity duration-1000 ${
             active === i ? "opacity-100" : "opacity-0"
           }`}
           style={{ backgroundImage: `url(${src})` }}
@@ -38,8 +38,8 @@ const HeroSection = () => {
         />
       ))}
 
-      {/* Left-to-right black gradient for text legibility */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/85 via-black/60 to-transparent" />
+      {/* Gradient for text legibility — stronger top fade on mobile, left-to-right on desktop */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/60 to-transparent md:bg-gradient-to-r md:from-black/85 md:via-black/60 md:to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-16">
