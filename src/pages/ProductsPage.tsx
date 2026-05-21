@@ -20,6 +20,7 @@ import ehFbg010Main from "@/assets/eh-fbg-010-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehDg002Main from "@/assets/eh-dg-002-main.webp";
 import ehDg003Main from "@/assets/eh-dg-003-main.webp";
+import ehBg001Main from "@/assets/eh-bg-001-main.webp";
 
 const allProducts = [
   {
@@ -152,12 +153,23 @@ const allProducts = [
     description:
       "Premium winter dressing gloves in 100% genuine cowhide leather (0.5–0.6mm) with elegant backhand stitching, faux-fur inner lining, wider extended fur cuff, elasticized wrist, and touchscreen-compatible finger and thumb. Available in 11 colors and sizes S to 3XL.",
   },
+  {
+    id: "14",
+    productCode: "EH-BG-001",
+    name: "Everhide Premium Professional Cowhide Leather Boxing Gloves",
+    category: "boxing",
+    categoryLabel: "Boxing Gloves",
+    image: ehBg001Main,
+    description:
+      "Made from 100% genuine premium cowhide leather, designed for professional training, sparring, and boxing performance with hand mold latex padding, moisture-wicking lining, extended wrist support, and durable hook & loop closure. Available in 10oz–16oz and multiple color combinations.",
+  },
 ];
 
 const categories = [
   { value: "all", label: "All Products" },
   { value: "biker", label: "Biker Gloves" },
   { value: "dressing", label: "Dressing Gloves" },
+  { value: "boxing", label: "Boxing Gloves" },
 ];
 
 const ProductsPage = () => {

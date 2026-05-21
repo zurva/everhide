@@ -14,6 +14,7 @@ import ehFbg010Main from "@/assets/eh-fbg-010-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehDg002Main from "@/assets/eh-dg-002-main.webp";
 import ehDg003Main from "@/assets/eh-dg-003-main.webp";
+import ehBg001Main from "@/assets/eh-bg-001-main.webp";
 
 const products = [
   {
@@ -106,6 +107,13 @@ const products = [
     category: "Dressing Gloves",
     image: ehDg003Main,
     productCode: "EH-DG-003",
+  },
+  {
+    id: "14",
+    name: "Everhide Premium Professional Cowhide Leather Boxing Gloves",
+    category: "Boxing Gloves",
+    image: ehBg001Main,
+    productCode: "EH-BG-001",
   },
 ];
 
