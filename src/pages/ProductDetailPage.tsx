@@ -129,6 +129,12 @@ import ehDg003_4 from "@/assets/eh-dg-003-4.png";
 import ehDg003_5 from "@/assets/eh-dg-003-5.png";
 import ehDg003_6 from "@/assets/eh-dg-003-6.png";
 import ehDg003_7 from "@/assets/eh-dg-003-7.png";
+import ehBg001Main from "@/assets/eh-bg-001-main.webp";
+import ehBg001_1 from "@/assets/eh-bg-001-1.png";
+import ehBg001_2 from "@/assets/eh-bg-001-2.png";
+import ehBg001_3 from "@/assets/eh-bg-001-3.png";
+import ehBg001_4 from "@/assets/eh-bg-001-4.png";
+import ehBg001_5 from "@/assets/eh-bg-001-5.png";
 
 const productsData: Record<string, {
   name: string;
@@ -908,6 +914,64 @@ const productsData: Record<string, {
       type: "Classic / Cold Weather Fashion Gloves",
       thickness: "0.5–0.6mm Genuine Soft Leather with Faux Fur Lining",
       certification: "Winter / Cold Weather | Basic Cold Protection (Non-Impact) | Full Inner Fur Lining for Warmth | Extended Fur Cuff with Elastic Wrist Gather | Slip-On Design",
+      packaging: "Individual polybag, 25 pairs per carton",
+      leadTime: "15-25 days after order confirmation",
+    },
+  },
+  "14": {
+    name: "Everhide Premium Professional Cowhide Leather Boxing Gloves",
+    productCode: "EH-BG-001",
+    category: "Boxing Gloves",
+    images: [ehBg001Main, ehBg001_1, ehBg001_2, ehBg001_3, ehBg001_4, ehBg001_5],
+    description: "Made from 100% genuine premium cowhide leather, designed for professional training, sparring, and boxing performance with superior comfort, durability, and hand protection.\n\n• Outer Material: Genuine premium cowhide leather construction\n• Padding: Hand mold latex soft padding for shock absorption and comfort\n• Leather Thickness: Normal thickness premium-grade leather\n• Lining: Moisture-wicking inner lining for sweat control and comfort\n• Palm Design: Ergonomic palm design with ventilation holes for airflow\n• Wrist Support: Extended wrist strap for enhanced wrist stability and protection\n• Closure Type: Durable hook & loop wrist closure for secure fit\n• Grip & Comfort: Comfortable hand compartment with natural fist positioning\n• Logo Branding: Screen printed Everhide logo branding (custom branding available on buyer request)\n• Stitching: Reinforced stitching for enhanced durability and long-lasting use\n• Usage: Ideal for sparring, boxing training, pad work, and fitness workouts\n\nColor Options:\nWhite / Brown / Gold\nWhite / Red\nBlack / Gold\nRed / Black\nCustom colors available on buyer request\n\nSpecial Finishes & Custom Options:\nVintage style color combinations\nCustom logo printing available\nOEM private label production available\nCustom color combinations available for bulk orders\nCustom packaging available on request\n\n• Sizes: 10oz / 12oz / 14oz / 16oz\n• Custom Orders: Special sizes and customized specifications possible at extra cost\n• Usage: Professional-grade boxing gloves for training, sparring, gym workouts, and combat sports\n• Origin: Made in Pakistan",
+    material: "Genuine Premium Cowhide Leather, Hand Mold Latex Soft Padding, Moisture-Wicking Inner Lining",
+    colors: [
+      "White / Brown / Gold",
+      "White / Red",
+      "Black / Gold",
+      "Red / Black",
+      "Custom colors (on buyer request)",
+    ],
+    sizes: ["10oz", "12oz", "14oz", "16oz"],
+    features: [
+      "100% genuine premium cowhide leather construction",
+      "Hand mold latex soft padding",
+      "Moisture-wicking inner lining",
+      "Ergonomic hand compartment design",
+      "Extended wrist support system",
+      "Durable hook & loop wrist closure",
+      "Ventilated palm air holes for breathability",
+      "Screen printed Everhide branding",
+      "Reinforced stitching for enhanced durability",
+      "Comfortable natural fist positioning",
+      "Professional training and sparring design",
+      "Balanced protection with normal thickness padding",
+      "Available in multiple color combinations",
+      "Sizes available from 10oz to 16oz",
+      "OEM and private label customization available",
+    ],
+    applications: [
+      "Professional boxing training",
+      "Sparring sessions",
+      "Heavy bag workouts",
+      "Pad and mitt training",
+      "Fitness boxing workouts",
+      "Combat sports training",
+      "Wholesale and international B2B distribution",
+    ],
+    overview: {
+      intro: "Everhide Premium Professional Cowhide Leather Boxing Gloves are designed for athletes, trainers, and boxing enthusiasts who demand durability, comfort, and reliable hand protection during training and sparring sessions. Manufactured from 100% genuine premium cowhide leather, these gloves combine classic craftsmanship with modern comfort features for professional performance.\n\nFeaturing hand mold latex soft padding, ergonomic hand positioning, moisture-wicking inner lining, and reinforced wrist support, these gloves provide excellent shock absorption, comfort, and long-lasting durability. Designed for export markets and wholesale buyers, Everhide boxing gloves offer premium quality, customizable branding solutions, and professional-grade construction suitable for international B2B distribution.",
+      materialBuild: "Material: Genuine Premium Cowhide Leather | Padding: Hand Mold Latex Soft Padding | Lining: Moisture-Wicking Comfortable Inner Lining | Closure: Hook & Loop Wrist Strap | Palm Design: Ventilated ergonomic palm system | Printing: Screen Printed Logo Branding | Construction: Reinforced stitched seams | Protection Level: Normal thickness professional padding",
+      cleaningCare: "Wipe gently with a soft dry cloth. Do not machine wash. Avoid harsh chemicals or bleach. Keep away from direct sunlight and excessive moisture. Allow gloves to air dry after use. Store in a cool and dry place.",
+      handling: "All Everhide boxing gloves are carefully inspected before shipping to ensure export-grade quality standards. After extended use, inspect gloves regularly for any cuts, tears, or seam damage before reuse.",
+      warning: "Boxing gloves should always be used with proper hand wraps for maximum wrist and hand protection. Do not use damaged gloves during training or sparring. Always use appropriate protective equipment according to your training requirements.",
+      additionalInfo: "Everhide Premium Professional Cowhide Leather Boxing Gloves are designed for athletes, trainers, and boxing enthusiasts who demand durability, comfort, and reliable hand protection during training and sparring sessions. Manufactured from 100% genuine premium cowhide leather, these gloves combine classic craftsmanship with modern comfort features for professional performance. Featuring hand mold latex soft padding, ergonomic hand positioning, moisture-wicking inner lining, and reinforced wrist support, these gloves provide excellent shock absorption, comfort, and long-lasting durability.",
+    },
+    specifications: {
+      feature: "Professional Boxing Gloves",
+      type: "Training / Sparring Boxing Gloves",
+      thickness: "Normal Thickness Genuine Cowhide Leather with Hand Mold Latex Padding",
+      certification: "All-Season Training Use | Hand Mold Latex Padding with Wrist Protection | Extended Hook & Loop Wrist Cuff",
       packaging: "Individual polybag, 25 pairs per carton",
       leadTime: "15-25 days after order confirmation",
     },
