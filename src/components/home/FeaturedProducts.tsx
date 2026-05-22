@@ -15,6 +15,7 @@ import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehDg002Main from "@/assets/eh-dg-002-main.webp";
 import ehDg003Main from "@/assets/eh-dg-003-main.webp";
 import ehBg001Main from "@/assets/eh-bg-001-main.webp";
+import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 
 const products = [
   {
