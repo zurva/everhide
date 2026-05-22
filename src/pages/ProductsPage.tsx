@@ -164,6 +164,16 @@ const allProducts = [
     description:
       "Made from 100% genuine premium cowhide leather, designed for professional training, sparring, and boxing performance with hand mold latex padding, moisture-wicking lining, extended wrist support, and durable hook & loop closure. Available in 10oz–16oz and multiple color combinations.",
   },
+  {
+    id: "15",
+    productCode: "EH-BG-002",
+    name: "Everhide Premium Professional Cowhide Leather Boxing Gloves",
+    category: "boxing",
+    categoryLabel: "Boxing Gloves",
+    image: ehBg002Main,
+    description:
+      "Premium cowhide leather boxing gloves for professional training, sparring, and fitness workouts. Hand mold latex padding, moisture-wicking lining, ergonomic pre-curved fist, extended wrist support, and quilted rear-panel styling with glossy finish. Available in 10oz–16oz.",
+  },
 ];
 
 const categories = [

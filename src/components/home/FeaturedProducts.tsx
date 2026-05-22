@@ -116,6 +116,13 @@ const products = [
     image: ehBg001Main,
     productCode: "EH-BG-001",
   },
+  {
+    id: "15",
+    name: "Everhide Premium Professional Cowhide Leather Boxing Gloves",
+    category: "Boxing Gloves",
+    image: ehBg002Main,
+    productCode: "EH-BG-002",
+  },
 ];
 
 const FeaturedProducts = () => {
