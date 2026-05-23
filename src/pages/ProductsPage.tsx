@@ -23,6 +23,7 @@ import ehDg003Main from "@/assets/eh-dg-003-main.webp";
 import ehBg001Main from "@/assets/eh-bg-001-main.webp";
 import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
+import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 
 const allProducts = [
   {
@@ -184,6 +185,16 @@ const allProducts = [
     image: ehBg003Main,
     description:
       "Professional cowhide leather boxing gloves for training, sparring, and combat fitness. Hand mold latex padding, moisture-wicking lining, ergonomic pre-curved fist, extended wrist support, palm ventilation, and glossy finish. Available in 10oz–16oz and multiple color combinations.",
+  },
+  {
+    id: "17",
+    productCode: "EH-BG-004",
+    name: "Everhide Professional Lace-Up Competition Boxing Gloves",
+    category: "boxing",
+    categoryLabel: "Boxing Gloves",
+    image: ehBg004Main,
+    description:
+      "Professional lace-up competition boxing gloves in 100% genuine premium cowhide leather. Multi-layer hand mold latex foam padding, attached thumb protection, extended lace-up wrist cuff, ergonomic pre-curved compartment, moisture-wicking lining, and premium matte finish. Available in 8oz–16oz and multiple color editions.",
   },
 ];
 
