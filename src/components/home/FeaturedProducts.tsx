@@ -18,6 +18,7 @@ import ehBg001Main from "@/assets/eh-bg-001-main.webp";
 import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
+import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
 
 const products = [
   {
@@ -138,6 +139,13 @@ const products = [
     category: "Boxing Gloves",
     image: ehBg004Main,
     productCode: "EH-BG-004",
+  },
+  {
+    id: "18",
+    name: "Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition",
+    category: "Boxing Gloves",
+    image: ehBg005Main,
+    productCode: "EH-BG-005",
   },
 ];
 
