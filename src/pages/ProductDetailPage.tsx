@@ -153,6 +153,12 @@ import ehBg004_2 from "@/assets/eh-bg-004-2.jpg";
 import ehBg004_3 from "@/assets/eh-bg-004-3.jpg";
 import ehBg004_4 from "@/assets/eh-bg-004-4.jpg";
 import ehBg004_5 from "@/assets/eh-bg-004-5.jpg";
+import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
+import ehBg005_1 from "@/assets/eh-bg-005-1.jpg";
+import ehBg005_2 from "@/assets/eh-bg-005-2.jpg";
+import ehBg005_3 from "@/assets/eh-bg-005-3.jpg";
+import ehBg005_4 from "@/assets/eh-bg-005-4.jpg";
+import ehBg005_5 from "@/assets/eh-bg-005-5.jpg";
 
 const productsData: Record<string, {
   name: string;
@@ -1161,6 +1167,65 @@ const productsData: Record<string, {
       handling: "All Everhide boxing gloves are carefully inspected before shipping to ensure export-grade quality standards. After extended use, inspect gloves regularly for any cuts, tears, or seam damage before reuse.",
       warning: "Professional boxing gloves should always be used with proper hand wraps for maximum wrist and knuckle protection. Lace-up gloves require proper fitting before use. Always use appropriate protective equipment according to your training and competition requirements.",
       additionalInfo: "Everhide Professional Lace-Up Competition Boxing Gloves combine traditional lace-up craftsmanship with modern performance protection. With multi-layer latex padding, attached thumb design, extended lace-up wrist support, and reinforced construction, these gloves provide professional-grade impact absorption, precision fit, and durability suitable for competition, sparring, and B2B wholesale distribution.",
+    },
+    specifications: {
+      feature: "Professional Lace-Up Boxing Gloves",
+      type: "Competition / Sparring Boxing Gloves",
+      thickness: "Premium-Grade Genuine Cowhide Leather with Multi-Layer Latex Foam Padding",
+      certification: "All-Season Training Use | Multi-Layer Latex Padding with Extended Wrist Support | Extended Lace-Up Cuff",
+      packaging: "Individual polybag, 25 pairs per carton",
+      leadTime: "15-25 days after order confirmation",
+    },
+  },
+  "18": {
+    name: "Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition",
+    productCode: "EH-BG-005",
+    category: "Boxing Gloves",
+    images: [ehBg005Main, ehBg005_1, ehBg005_2, ehBg005_3, ehBg005_4, ehBg005_5],
+    description: "Made from 100% genuine premium cowhide leather, these professional lace-up boxing gloves are engineered for elite-level boxing performance, competition training, and advanced sparring sessions with superior wrist stability, precision fit, and impact protection.\n\n• Outer Material: Genuine premium cowhide leather construction\n• Padding: Multi-layer high-density latex foam padding for advanced shock absorption\n• Leather Thickness: Premium-grade durable cowhide leather\n• Lining: Soft moisture-control inner lining for lasting comfort during training\n• Closure Type: Traditional professional lace-up closure system\n• Wrist Support: Extended wrist cuff for superior wrist stabilization and secure fit\n• Hand Shape: Ergonomic pre-curved fist design for natural punching alignment\n• Thumb Protection: Attached thumb safety design for injury prevention\n• Impact Control: Balanced weight distribution for precision striking and punch control\n• Stitching: Reinforced professional stitching for long-lasting durability\n• Logo Branding: Everhide logo printing on cuff and rear glove panel (custom branding available on request)\n• Finish: Smooth professional matte leather finish\n• Usage: Designed for professional boxing, sparring, competition preparation, and intensive gym training\n\nColor Options:\nFull Blue Edition\nFull Red Edition\nRed / Black (outlining)\nRed / White (outlining)\nBlack / Red (outlining)\nCustom color combinations available on buyer request\n\nSpecial Finishes & Custom Options:\nProfessional matte leather finish\nCustom logo printing available\nOEM private label production available\nCustom lace colors available\nCustom glove weight and padding options available\nCustom packaging solutions for wholesale buyers\n\n• Sizes: 8oz / 10oz / 12oz / 14oz / 16oz\n• Custom Orders: Special specifications and custom sizing possible at extra cost\n• Usage: Professional-grade boxing gloves for sparring, boxing competition training, pad work, and combat sports\n• Origin: Made in Pakistan",
+    material: "Genuine Premium Cowhide Leather, Multi-Layer High-Density Latex Foam Padding, Moisture-Control Inner Lining",
+    colors: [
+      "Full Blue Edition",
+      "Full Red Edition",
+      "Red / Black (outlining)",
+      "Red / White (outlining)",
+      "Black / Red (outlining)",
+      "Custom color combinations (on buyer request)",
+    ],
+    sizes: ["8oz", "10oz", "12oz", "14oz", "16oz"],
+    features: [
+      "100% genuine premium cowhide leather construction",
+      "Traditional professional lace-up closure",
+      "Multi-layer high-density latex foam padding",
+      "Extended wrist support design",
+      "Ergonomic pre-curved fist compartment",
+      "Attached thumb safety protection",
+      "Professional competition-style construction",
+      "Moisture-control inner lining",
+      "Reinforced stitched seams for durability",
+      "Balanced shock absorption padding",
+      "Professional matte leather finish",
+      "Precision punch alignment structure",
+      "Available in multiple color combinations",
+      "Sizes available from 8oz to 16oz",
+      "OEM and private label customization available",
+    ],
+    applications: [
+      "Professional boxing training",
+      "Advanced sparring sessions",
+      "Competition preparation",
+      "Heavy bag workouts",
+      "Pad and mitt training",
+      "Combat sports gyms",
+      "Wholesale and international B2B distribution",
+    ],
+    overview: {
+      intro: "Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition are designed for professional fighters, advanced athletes, and boxing enthusiasts seeking premium wrist support, punch precision, and long-lasting durability. Manufactured from 100% genuine premium cowhide leather, these gloves combine traditional professional lace-up craftsmanship with performance-focused protective construction.\n\nFeaturing multi-layer latex foam padding, ergonomic fist positioning, attached thumb safety, reinforced wrist stabilization, and durable professional stitching, these gloves provide superior comfort, balance, and shock absorption during intense boxing sessions. Developed for export markets and wholesale buyers, Everhide gloves offer customizable branding solutions and premium-quality manufacturing for international B2B customers.",
+      materialBuild: "Material: Genuine Premium Cowhide Leather | Padding: Multi-Layer High-Density Latex Foam | Lining: Moisture-Control Comfort Lining | Closure: Traditional Lace-Up System | Palm Design: Ergonomic hand positioning structure | Thumb Design: Attached thumb protection | Construction: Reinforced professional stitched seams | Wrist Support: Extended lace stabilization cuff | Protection Level: Professional competition-grade padding",
+      cleaningCare: "Wipe gently with a soft dry cloth. Do not machine wash. Avoid chemical cleaning products. Allow gloves to air dry after use. Keep away from direct sunlight and moisture. Store in a cool and dry place.",
+      handling: "All Everhide boxing gloves are carefully inspected before shipping to ensure export-grade quality standards. After prolonged use, inspect gloves regularly for cuts, tears, or seam damage before reuse.",
+      warning: "Professional boxing gloves should always be used with proper hand wraps for maximum wrist and knuckle protection. Lace-up gloves require proper fitting before use. Always use suitable protective equipment according to your training and competition requirements.",
+      additionalInfo: "Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition combine traditional lace-up craftsmanship with modern performance protection. With multi-layer high-density latex padding, attached thumb design, extended lace-up wrist support, and reinforced construction, these gloves provide professional-grade impact absorption, precision fit, and durability suitable for competition, sparring, and B2B wholesale distribution.",
     },
     specifications: {
       feature: "Professional Lace-Up Boxing Gloves",
