@@ -132,6 +132,13 @@ const products = [
     image: ehBg003Main,
     productCode: "EH-BG-003",
   },
+  {
+    id: "17",
+    name: "Everhide Professional Lace-Up Competition Boxing Gloves",
+    category: "Boxing Gloves",
+    image: ehBg004Main,
+    productCode: "EH-BG-004",
+  },
 ];
 
 const FeaturedProducts = () => {
