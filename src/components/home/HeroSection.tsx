@@ -3,13 +3,13 @@ import { Link } from "react-router-dom";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2 } from "lucide-react";
-import heroBanner1 from "@/assets/hero-banner-1.png";
-import heroBanner2 from "@/assets/hero-banner-2.png";
+import heroBanner1 from "@/assets/hero-banner-1.jpg";
+import heroBannerGloves3 from "@/assets/hero-banner-gloves-3.jpg";
 import heroBannerBoxing1 from "@/assets/hero-banner-boxing-1.jpg";
 import heroBannerBoxing2 from "@/assets/hero-banner-boxing-2.jpg";
-import heroBannerMobile from "@/assets/hero-banner-mobile.png";
+import heroBannerMobile from "@/assets/hero-banner-mobile.jpg";
 
-const desktopSlides = [heroBanner1, heroBannerBoxing1, heroBanner2, heroBannerBoxing2];
+const desktopSlides = [heroBanner1, heroBannerBoxing1, heroBannerGloves3, heroBannerBoxing2];
 const mobileSlides = [heroBannerMobile];
 
 const HeroSection = () => {
