@@ -19,6 +19,11 @@ const HeroSection = () => {
 
   useEffect(() => {
     setActive(0);
+    // Preload all slides so transitions are instant
+    slides.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
     if (slides.length <= 1) return;
     const id = setInterval(() => {
       setActive((i) => (i + 1) % slides.length);
