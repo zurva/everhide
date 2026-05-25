@@ -25,7 +25,7 @@ const HeroSection = () => {
   useEffect(() => {
     setActive(0);
     // Preload all slides so transitions are instant
-    slides.forEach((src) => {
+    slides.forEach(({ src }) => {
       const img = new Image();
       img.src = src;
     });
@@ -39,13 +39,13 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden pt-16 lg:pt-24">
       {/* Rotating background images */}
-      {slides.map((src, i) => (
+      {slides.map(({ src, position }, i) => (
         <div
           key={i}
-          className={`absolute inset-0 bg-contain md:bg-cover bg-right bg-bottom md:bg-center bg-no-repeat bg-secondary transition-opacity duration-1000 ${
+          className={`absolute inset-0 bg-contain md:bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
             active === i ? "opacity-100" : "opacity-0"
           }`}
-          style={{ backgroundImage: `url(${src})` }}
+          style={{ backgroundImage: `url(${src})`, backgroundPosition: position }}
           aria-hidden="true"
         />
       ))}
