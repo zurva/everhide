@@ -5,9 +5,11 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2 } from "lucide-react";
 import heroBanner1 from "@/assets/hero-banner-1.png";
 import heroBanner2 from "@/assets/hero-banner-2.png";
+import heroBannerBoxing1 from "@/assets/hero-banner-boxing-1.jpg";
+import heroBannerBoxing2 from "@/assets/hero-banner-boxing-2.jpg";
 import heroBannerMobile from "@/assets/hero-banner-mobile.png";
 
-const desktopSlides = [heroBanner1, heroBanner2];
+const desktopSlides = [heroBanner1, heroBannerBoxing1, heroBanner2, heroBannerBoxing2];
 const mobileSlides = [heroBannerMobile];
 
 const HeroSection = () => {
@@ -20,7 +22,7 @@ const HeroSection = () => {
     if (slides.length <= 1) return;
     const id = setInterval(() => {
       setActive((i) => (i + 1) % slides.length);
-    }, 5000);
+    }, 2000);
     return () => clearInterval(id);
   }, [slides]);
 
