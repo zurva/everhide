@@ -9,8 +9,13 @@ import heroBannerBoxing1 from "@/assets/hero-banner-boxing-1.jpg";
 import heroBannerBoxing2 from "@/assets/hero-banner-boxing-2.jpg";
 import heroBannerMobile from "@/assets/hero-banner-mobile.jpg";
 
-const desktopSlides = [heroBanner1, heroBannerBoxing1, heroBannerGloves3, heroBannerBoxing2];
-const mobileSlides = [heroBannerMobile];
+const desktopSlides: { src: string; position: string }[] = [
+  { src: heroBanner1, position: "center" },
+  { src: heroBannerBoxing1, position: "right center" },
+  { src: heroBannerGloves3, position: "center" },
+  { src: heroBannerBoxing2, position: "right center" },
+];
+const mobileSlides = [{ src: heroBannerMobile, position: "right bottom" }];
 
 const HeroSection = () => {
   const [active, setActive] = useState(0);
