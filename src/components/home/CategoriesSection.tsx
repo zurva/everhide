@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
-import ehBg001Main from "@/assets/eh-bg-001-main.webp";
+import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 
 const categories = [
   {
