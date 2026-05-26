@@ -20,7 +20,7 @@ const categories = [
   {
     name: "Boxing Gloves",
     description: "Premium cowhide leather boxing gloves for professional training, sparring, and combat sports",
-    image: ehBg001Main,
+    image: ehBg003Main,
     link: "/products?category=boxing",
   },
 ];
