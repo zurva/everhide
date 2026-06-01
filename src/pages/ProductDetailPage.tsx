@@ -2016,15 +2016,20 @@ const ProductDetailPage = () => {
                           </div>
                         </a>
 
-                        <div className="flex items-center gap-4 p-4 bg-card rounded-xl border">
+                        <a
+                          href="https://maps.app.goo.gl/DXPCK9EWaeZqQMDMA"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-4 p-4 bg-card rounded-xl border hover:border-primary transition-colors"
+                        >
                           <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
                             <MapPin className="h-6 w-6 text-primary" />
                           </div>
                           <div>
                             <p className="font-semibold text-lg">Location</p>
-                            <p className="text-muted-foreground">Pakistan</p>
+                            <p className="text-muted-foreground">TajBagh Beri Gali, House 17, Harbanspura, Lahore, Pakistan</p>
                           </div>
-                        </div>
+                        </a>
                       </div>
                     </div>
 
