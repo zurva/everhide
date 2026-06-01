@@ -274,6 +274,11 @@ const ContactPage = () => {
                       <option value="eh-dg-001">EH-DG-001 – Unisex Black Leather Dressing Gloves – Genuine Cowhide Winter Gloves</option>
                       <option value="eh-dg-002">EH-DG-002 – Lady's Brown Leather Dressing Gloves – Genuine Cowhide Winter Gloves</option>
                       <option value="eh-dg-003">EH-DG-003 – Dressing Gloves – Genuine Leather Winter Gloves</option>
+                      <option value="eh-bg-001">EH-BG-001 – Everhide Premium Professional Cowhide Leather Boxing Gloves</option>
+                      <option value="eh-bg-002">EH-BG-002 – Everhide Premium Professional Cowhide Leather Boxing Gloves</option>
+                      <option value="eh-bg-003">EH-BG-003 – Everhide Professional Cowhide Leather Training & Sparring Boxing Gloves</option>
+                      <option value="eh-bg-004">EH-BG-004 – Everhide Professional Lace-Up Competition Boxing Gloves</option>
+                      <option value="eh-bg-005">EH-BG-005 – Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition</option>
                       <option value="other">Other</option>
                     </select>
                   </div>
