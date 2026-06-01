@@ -16,6 +16,7 @@ const Footer = () => {
   const productLinks = [
     { name: "Biker Gloves", path: "/products?category=biker" },
     { name: "Dressing Gloves", path: "/products?category=dressing" },
+    { name: "Boxing Gloves", path: "/products?category=boxing" },
   ];
 
   return (
