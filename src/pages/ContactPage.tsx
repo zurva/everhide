@@ -95,7 +95,7 @@ const ContactPage = () => {
     <Layout>
       <SEO
         title="Contact EVERHIDE Global – Bulk Leather Gloves Inquiry"
-        description="Contact EVERHIDE Global for bulk leather gloves quotes, private label production and B2B export inquiries. Based in Lahore, Pakistan."
+        description="Contact EVERHIDE Global for bulk leather gloves quotes, private label production and B2B export inquiries. Based in TajBagh Beri Gali, House 17, Harbanspura, Lahore, Pakistan."
         keywords="contact leather gloves exporter, bulk gloves quote Pakistan, private label gloves inquiry"
       />
       {/* Hero Section */}
