@@ -1416,10 +1416,6 @@ const ProductDetailPage = () => {
                   <span className="inline-flex items-center px-3 py-1 bg-primary/10 text-primary font-semibold text-sm uppercase tracking-wide rounded-full">
                     {product.category}
                   </span>
-                  <span className="inline-flex items-center px-3 py-1 bg-green-100 text-green-700 font-medium text-xs rounded-full">
-                    <Check className="w-3 h-3 mr-1" />
-                    In Stock
-                  </span>
                 </div>
                 <h1 className="text-3xl md:text-4xl font-bold leading-tight">{product.name}</h1>
               </div>
