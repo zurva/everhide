@@ -17,4 +17,6 @@
   <url><loc>https://everhideglobal.com/products/11</loc><priority>0.7</priority></url>
   <url><loc>https://everhideglobal.com/products/12</loc><priority>0.7</priority></url>
   <url><loc>https://everhideglobal.com/products/13</loc><priority>0.7</priority></url>
+  <url><loc>https://everhideglobal.com/privacy</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://everhideglobal.com/terms</loc><changefreq>yearly</changefreq><priority>0.3</priority></url>
 </urlset>
