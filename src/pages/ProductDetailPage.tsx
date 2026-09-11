@@ -82,6 +82,11 @@ import ehMbg007_4 from "@/assets/eh-mbg-007-4.png";
 import ehMbg007_5 from "@/assets/eh-mbg-007-5.png";
 import ehMbg007_6 from "@/assets/eh-mbg-007-6.png";
 import ehMbg007_7 from "@/assets/eh-mbg-007-7.png";
+import ehPrg004MainAsset from "@/assets/eh-prg-004-main.png.asset.json";
+import ehPrg004_1Asset from "@/assets/eh-prg-004-1.png.asset.json";
+import ehPrg004_2Asset from "@/assets/eh-prg-004-2.png.asset.json";
+import ehPrg004_3Asset from "@/assets/eh-prg-004-3.png.asset.json";
+import ehPrg004_4Asset from "@/assets/eh-prg-004-4.png.asset.json";
 import ehMbg008Main from "@/assets/eh-mbg-008-main.webp";
 import ehMbg008_1 from "@/assets/eh-mbg-008-1.png";
 import ehMbg008_2 from "@/assets/eh-mbg-008-2.png";
@@ -598,6 +603,71 @@ const productsData: Record<string, {
       type: "Summer Riding Gloves",
       thickness: "0.6–0.7mm Genuine Cowhide Leather",
       certification: "Summer | Laminated Rubber Knuckle | Short Cuff | Full Perforated Leather",
+      packaging: "Individual polybag, 25 pairs per carton",
+      leadTime: "15-25 days after order confirmation",
+    },
+  },
+  "19": {
+    name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
+    productCode: "EH-PRG-004",
+    category: "Biker Gloves",
+    images: [ehPrg004MainAsset.url, ehPrg004_1Asset.url, ehPrg004_2Asset.url, ehPrg004_3Asset.url, ehPrg004_4Asset.url],
+    description: "Made from 100% genuine cowhide leather with a thickness of 0.7–0.8mm, designed as a professional racing motorcycle glove for riders who demand durability, protection, secure fit, and reliable performance.\n\n• Material: 100% genuine cowhide leather\n• Leather Thickness: 0.7–0.8mm premium cowhide leather\n• Protection: TPU protective padding with carbon-fibre-style protective elements\n• Palm: Reinforced palm construction for improved grip and durability\n• Finger Protection: Protective finger armor with reinforced construction\n• Wrist Protection: Extended protective gauntlet cuff with reinforced wrist area\n• Cuff: Long racing-style gauntlet cuff for extended wrist protection\n• Wrist Fit: Adjustable wrist closure for a secure and precise fit\n• Lining: Cowhide leather lining\n• Water Resistance: Waterproof construction\n• Breathability: Limited breathability for improved comfort during riding\n• Touchscreen Capability: Touchscreen-compatible fingertips\n• Construction: Professional racing glove construction designed for high-speed riding\n• Season: All-season professional racing glove; may feel warm during hot summer conditions\n• Certification: ISO certified\n• Logo Branding: Everhide branding; custom branding available on buyer request\n• Color Options: Fully customizable color combinations\n\nStandard Color Options:\nBlack / Blue / White\nBlack / Red / White\nBlack / Yellow / White\nBlack / Green / White\nAll Black\nAll White\nCustom color combinations\nOther colors can be implemented on the request of buyer.\n\nSpecial Finishes & Custom Options:\nCustom Racing Colors: Any color combination can be produced according to buyer requirements\nOEM Private Label: OEM/private-label production available\nCustom Branding: Custom logo printing and branding available for bulk orders\nCustom Design: Buyer-specific color and design combinations available\n\n• Sizes: All sizes available\n• Custom Sizes: Special sizing can be produced according to buyer requirements\n• Origin: Made in Pakistan",
+    material: "100% Genuine Cowhide Leather, TPU Carbon-Look Protective Padding, Cowhide Leather Lining",
+    colors: [
+      "Black / Blue / White",
+      "Black / Red / White",
+      "Black / Yellow / White",
+      "Black / Green / White",
+      "All Black",
+      "All White",
+      "Custom color combinations",
+    ],
+    sizes: ["XS", "S", "M", "L", "XL", "XXL", "3XL", "Custom"],
+    features: [
+      "100% genuine cowhide leather construction",
+      "Leather thickness: 0.7–0.8mm",
+      "Professional racing-style construction",
+      "TPU carbon-look protective padding",
+      "Protective knuckle reinforcement",
+      "Reinforced palm protection",
+      "Reinforced wrist construction",
+      "Touchscreen-compatible fingers",
+      "Waterproof construction",
+      "Cowhide leather lining",
+      "Pre-shaped ergonomic construction",
+      "Flexible finger construction for riding control",
+      "Limited breathability for improved comfort",
+      "Adjustable wrist closure",
+      "All-season riding design",
+      "Available in all sizes",
+      "Multiple color combinations available",
+      "Full customization available",
+      "Custom colors and branding available",
+    ],
+    applications: [
+      "Professional motorcycle racing",
+      "Sport motorcycle riding",
+      "Performance riding",
+      "Motorcycle track use",
+      "All-season motorcycle riding",
+      "Motorcycle gear retail",
+      "Wholesale and international B2B distribution",
+      "Custom motorcycle glove production",
+    ],
+    overview: {
+      intro: "Everhide Professional Racing Leather Motorcycle Gloves are engineered for riders who require a high level of protection, durability, and secure hand control during sport and professional riding. Constructed from 100% genuine cowhide leather with a 0.7–0.8mm leather thickness, these gloves provide a durable outer construction while maintaining the flexibility required for active riding.\n\nDesigned with protective knuckle and palm reinforcement, carbon-look TPU protective components, reinforced wrist areas, and an ergonomic pre-curved construction, the gloves are built to provide dependable protection and comfort during demanding riding conditions. Touchscreen-compatible fingertips add everyday functionality, while the leather construction offers water-resistant/waterproof performance with limited breathability for improved comfort.\n\nAs a professional racing-style glove, the design is suitable for all-season use, although the leather construction and protective build may feel warm during hot summer conditions. Everhide offers full size availability, multiple color combinations, and extensive customization options, making these gloves suitable for motorcycle brands, distributors, wholesalers, retailers, and international B2B orders.",
+      materialBuild: "Material: 100% Genuine Cowhide Leather | Leather Thickness: 0.7–0.8mm | Protective Components: TPU protective padding with carbon-look finish | Lining: Cowhide Leather | Palm: Reinforced protective palm construction | Closure: Adjustable wrist closure | Functionality: Touchscreen compatible | Water Resistance: Waterproof construction | Breathability: Limited breathability | Certification: ISO Certified",
+      cleaningCare: "Wipe gently with a soft, clean cloth. Avoid machine washing. Avoid harsh chemicals and solvents. Keep away from prolonged direct heat. Allow gloves to dry naturally if exposed to moisture. Store in a cool and dry place. Do not expose to prolonged direct sunlight.",
+      handling: "All Everhide gloves are carefully inspected before shipping to maintain consistent quality for export and B2B orders. Before use, inspect the gloves for any cuts, tears, damaged protective components, or stitching issues. After extended use, inspect the gloves regularly to ensure the protective and structural components remain in good condition.",
+      warning: "Gloves should not be worn in environments where there is a risk of entanglement with machinery or mechanical parts. Always select appropriate protective equipment according to the riding environment and conditions.",
+      additionalInfo: "Everhide Professional Racing Leather Motorcycle Gloves combine durable cowhide leather, racing-style protection, a secure fit, and extensive OEM customization for brands, distributors, wholesalers, retailers, and international B2B buyers.",
+    },
+    specifications: {
+      feature: "Long Cuff Gauntlet Motorcycle Gloves",
+      type: "Professional Racing Gloves",
+      thickness: "0.7–0.8mm Genuine Cowhide Leather",
+      certification: "All-Season (Moderate Weather) | TPU Knuckle + Palm Slider | Long Cuff | ISO Certified",
       packaging: "Individual polybag, 25 pairs per carton",
       leadTime: "15-25 days after order confirmation",
     },
