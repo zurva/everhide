@@ -14,6 +14,7 @@ import ehMbg004Main from "@/assets/eh-mbg-004-main.webp";
 import ehMbg005Main from "@/assets/eh-mbg-005-main.webp";
 import ehMbg006Main from "@/assets/eh-mbg-006-main.webp";
 import ehMbg007Main from "@/assets/eh-mbg-007-main.webp";
+import ehPrg004MainAsset from "@/assets/eh-prg-004-main.png.asset.json";
 import ehMbg008Main from "@/assets/eh-mbg-008-main.webp";
 import ehMbg009Main from "@/assets/eh-mbg-009-main.webp";
 import ehFbg010Main from "@/assets/eh-fbg-010-main.webp";
@@ -96,6 +97,16 @@ const allProducts = [
     image: ehMbg007Main,
     description:
       "Summer short-cuff gloves in 100% genuine cowhide leather (0.6–0.7mm) with full perforated backhand, laminated rubber knuckle protection, rubber laminated finger tips, soft padded palm, thin half lining, Velcro wrist closure, and touchscreen-compatible fabric.",
+  },
+  {
+    id: "19",
+    productCode: "EH-PRG-004",
+    name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
+    category: "biker",
+    categoryLabel: "Biker Gloves",
+    image: ehPrg004MainAsset.url,
+    description:
+      "Professional long-cuff racing gloves in 100% genuine cowhide leather (0.7–0.8mm) with carbon-look TPU protection, reinforced palm and wrist, waterproof construction, adjustable closure, and touchscreen-compatible fingertips.",
   },
   {
     id: "8",

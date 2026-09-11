@@ -8,6 +8,7 @@ import ehMbg004Main from "@/assets/eh-mbg-004-main.webp";
 import ehMbg005Main from "@/assets/eh-mbg-005-main.webp";
 import ehMbg006Main from "@/assets/eh-mbg-006-main.webp";
 import ehMbg007Main from "@/assets/eh-mbg-007-main.webp";
+import ehPrg004MainAsset from "@/assets/eh-prg-004-main.png.asset.json";
 import ehMbg008Main from "@/assets/eh-mbg-008-main.webp";
 import ehMbg009Main from "@/assets/eh-mbg-009-main.webp";
 import ehFbg010Main from "@/assets/eh-fbg-010-main.webp";
@@ -69,6 +70,13 @@ const products = [
     category: "Biker Gloves",
     image: ehMbg007Main,
     productCode: "EH-MBG-007",
+  },
+  {
+    id: "19",
+    name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
+    category: "Biker Gloves",
+    image: ehPrg004MainAsset.url,
+    productCode: "EH-PRG-004",
   },
   {
     id: "8",
