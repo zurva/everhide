@@ -261,6 +261,7 @@ const ContactPage = () => {
                       className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
                     >
                       <option value="">Select a product</option>
+                       <option value="eh-prg-005">EH-PRG-005 – Everhide Professional Racing Gauntlet Motorcycle Leather Gloves</option>
                       <option value="eh-mbg-001">EH-MBG-001 – Everhide Premium Professional Racing Gauntlet Motorbike Leather Gloves</option>
                       <option value="eh-mbg-002">EH-MBG-002 – Everhide Premium Professional Racing Gauntlet Motorcycle Gloves with Palm Slider Armor</option>
                       <option value="eh-mbg-003">EH-MBG-003 – Everhide Premium Cowhide Sport Motorcycle Gloves with Carbon Knuckle Protection</option>

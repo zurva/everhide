@@ -7,6 +7,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
+import ehPrg005MainAsset from "@/assets/eh-prg-005-main.png.asset.json";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -28,6 +29,16 @@ import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
 
 const allProducts = [
+  {
+    id: "20",
+    productCode: "EH-PRG-005",
+    name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
+    category: "biker",
+    categoryLabel: "Biker Gloves",
+    image: ehPrg005MainAsset.url,
+    description:
+      "Professional long-cuff racing gloves in genuine cowhide leather (0.7–0.8mm) with TPU and carbon-fibre-style protection, reinforced palm and wrist, waterproof construction, adjustable closure, and touchscreen-compatible fingertips.",
+  },
   {
     id: "1",
     productCode: "EH-MBG-001",

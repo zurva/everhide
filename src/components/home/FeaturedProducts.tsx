@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import ehPrg005MainAsset from "@/assets/eh-prg-005-main.png.asset.json";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -22,6 +23,13 @@ import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
 
 const products = [
+  {
+    id: "20",
+    name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
+    category: "Biker Gloves",
+    image: ehPrg005MainAsset.url,
+    productCode: "EH-PRG-005",
+  },
   {
     id: "1",
     name: "Everhide Premium Professional Racing Gauntlet Motorbike Leather Gloves",
