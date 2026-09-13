@@ -26,11 +26,11 @@ import {
 import ImageLightbox from "@/components/ui/image-lightbox";
 import SizeChartDialog from "@/components/ui/size-chart";
 import { getColorSwatch } from "@/lib/colorSwatch";
-import ehPrg005MainAsset from "@/assets/eh-prg-005-main.png.asset.json";
-import ehPrg005_1Asset from "@/assets/eh-prg-005-1.png.asset.json";
-import ehPrg005_2Asset from "@/assets/eh-prg-005-2.png.asset.json";
-import ehPrg005_3Asset from "@/assets/eh-prg-005-3.png.asset.json";
-import ehPrg005_4Asset from "@/assets/eh-prg-005-4.png.asset.json";
+import ehPrg005MainAsset from "@/assets/eh-prg-005-main.webp";
+import ehPrg005_1Asset from "@/assets/eh-prg-005-1.webp";
+import ehPrg005_2Asset from "@/assets/eh-prg-005-2.webp";
+import ehPrg005_3Asset from "@/assets/eh-prg-005-3.webp";
+import ehPrg005_4Asset from "@/assets/eh-prg-005-4.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg001_1 from "@/assets/eh-mbg-001-1.png";
 import ehMbg001_2 from "@/assets/eh-mbg-001-2.png";
@@ -87,11 +87,11 @@ import ehMbg007_4 from "@/assets/eh-mbg-007-4.png";
 import ehMbg007_5 from "@/assets/eh-mbg-007-5.png";
 import ehMbg007_6 from "@/assets/eh-mbg-007-6.png";
 import ehMbg007_7 from "@/assets/eh-mbg-007-7.png";
-import ehPrg004MainAsset from "@/assets/eh-prg-004-main.png.asset.json";
-import ehPrg004_1Asset from "@/assets/eh-prg-004-1.png.asset.json";
-import ehPrg004_2Asset from "@/assets/eh-prg-004-2.png.asset.json";
-import ehPrg004_3Asset from "@/assets/eh-prg-004-3.png.asset.json";
-import ehPrg004_4Asset from "@/assets/eh-prg-004-4.png.asset.json";
+import ehPrg004MainAsset from "@/assets/eh-prg-004-main.webp";
+import ehPrg004_1Asset from "@/assets/eh-prg-004-1.webp";
+import ehPrg004_2Asset from "@/assets/eh-prg-004-2.webp";
+import ehPrg004_3Asset from "@/assets/eh-prg-004-3.webp";
+import ehPrg004_4Asset from "@/assets/eh-prg-004-4.webp";
 import ehMbg008Main from "@/assets/eh-mbg-008-main.webp";
 import ehMbg008_1 from "@/assets/eh-mbg-008-1.png";
 import ehMbg008_2 from "@/assets/eh-mbg-008-2.png";
@@ -206,7 +206,7 @@ const productsData: Record<string, {
     name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
     productCode: "EH-PRG-005",
     category: "Biker Gloves",
-    images: [ehPrg005MainAsset.url, ehPrg005_1Asset.url, ehPrg005_2Asset.url, ehPrg005_3Asset.url, ehPrg005_4Asset.url],
+    images: [ehPrg005MainAsset, ehPrg005_1Asset, ehPrg005_2Asset, ehPrg005_3Asset, ehPrg005_4Asset],
     description: "Made from genuine cowhide leather with a thickness of 0.7–0.8mm, designed as a professional racing motorcycle glove for riders who demand durability, protection, secure fit, and reliable performance. The glove combines protective TPU/carbon-fibre-style elements, reinforced construction, touchscreen capability, and a waterproof build for demanding riding conditions.\n\n• Material: 100% genuine cowhide leather\n• Leather Thickness: 0.7–0.8mm premium cowhide leather\n• Protection: TPU protective padding with carbon-fibre-style protective elements\n• Palm: Reinforced palm construction for improved protection, grip, and durability\n• Finger Protection: Protective finger armor with reinforced construction\n• Wrist Protection: Extended gauntlet cuff with reinforced wrist protection\n• Cuff: Long racing-style gauntlet cuff for extended wrist coverage\n• Wrist Fit: Adjustable wrist closure for a secure and precise fit\n• Lining: Cowhide leather lining\n• Water Resistance: Waterproof construction\n• Breathability: Limited breathability for improved comfort during riding\n• Touchscreen Capability: Touchscreen-compatible fingertips\n• Construction: Professional racing glove construction designed for high-speed riding\n• Season: All-season professional racing glove; may feel warm during hot summer conditions\n• Certification: ISO certified\n• Logo Branding: Everhide branding; custom branding available on buyer request\n• Color Options: Fully customizable color combinations\n\nStandard Color Options:\nBlack / Blue / White\nBlack / Red / White\nBlack / Yellow / White\nBlack / Green / White\nAll Black\nAll White\nCustom color combinations\nOther colors can be produced according to the buyer's requirements.\n\nSpecial Finishes & Custom Options:\nCustom Racing Colors: Any color combination can be produced according to buyer requirements\nOEM Private Label: OEM/private-label production available\nCustom Branding: Custom logo printing and branding available for bulk orders\nCustom Design: Buyer-specific color and design combinations available\nCustom Construction: Product specifications can be adjusted according to buyer requirements for bulk production\n\n• Sizes: All sizes available\n• Custom Sizes: Special sizing can be produced according to buyer requirements\n• Origin: Made in Pakistan",
     material: "100% Genuine Cowhide Leather, TPU Protective Components, Carbon-Fibre-Style Protective Padding, Cowhide Leather Lining",
     colors: [
@@ -684,7 +684,7 @@ const productsData: Record<string, {
     name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
     productCode: "EH-PRG-004",
     category: "Biker Gloves",
-    images: [ehPrg004MainAsset.url, ehPrg004_1Asset.url, ehPrg004_2Asset.url, ehPrg004_3Asset.url, ehPrg004_4Asset.url],
+    images: [ehPrg004MainAsset, ehPrg004_1Asset, ehPrg004_2Asset, ehPrg004_3Asset, ehPrg004_4Asset],
     description: "Made from 100% genuine cowhide leather with a thickness of 0.7–0.8mm, designed as a professional racing motorcycle glove for riders who demand durability, protection, secure fit, and reliable performance.\n\n• Material: 100% genuine cowhide leather\n• Leather Thickness: 0.7–0.8mm premium cowhide leather\n• Protection: TPU protective padding with carbon-fibre-style protective elements\n• Palm: Reinforced palm construction for improved grip and durability\n• Finger Protection: Protective finger armor with reinforced construction\n• Wrist Protection: Extended protective gauntlet cuff with reinforced wrist area\n• Cuff: Long racing-style gauntlet cuff for extended wrist protection\n• Wrist Fit: Adjustable wrist closure for a secure and precise fit\n• Lining: Cowhide leather lining\n• Water Resistance: Waterproof construction\n• Breathability: Limited breathability for improved comfort during riding\n• Touchscreen Capability: Touchscreen-compatible fingertips\n• Construction: Professional racing glove construction designed for high-speed riding\n• Season: All-season professional racing glove; may feel warm during hot summer conditions\n• Certification: ISO certified\n• Logo Branding: Everhide branding; custom branding available on buyer request\n• Color Options: Fully customizable color combinations\n\nStandard Color Options:\nBlack / Blue / White\nBlack / Red / White\nBlack / Yellow / White\nBlack / Green / White\nAll Black\nAll White\nCustom color combinations\nOther colors can be implemented on the request of buyer.\n\nSpecial Finishes & Custom Options:\nCustom Racing Colors: Any color combination can be produced according to buyer requirements\nOEM Private Label: OEM/private-label production available\nCustom Branding: Custom logo printing and branding available for bulk orders\nCustom Design: Buyer-specific color and design combinations available\n\n• Sizes: All sizes available\n• Custom Sizes: Special sizing can be produced according to buyer requirements\n• Origin: Made in Pakistan",
     material: "100% Genuine Cowhide Leather, TPU Carbon-Look Protective Padding, Cowhide Leather Lining",
     colors: [

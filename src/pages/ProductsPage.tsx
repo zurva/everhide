@@ -7,7 +7,7 @@ import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
-import ehPrg005MainAsset from "@/assets/eh-prg-005-main.png.asset.json";
+import ehPrg005MainAsset from "@/assets/eh-prg-005-main.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -15,7 +15,7 @@ import ehMbg004Main from "@/assets/eh-mbg-004-main.webp";
 import ehMbg005Main from "@/assets/eh-mbg-005-main.webp";
 import ehMbg006Main from "@/assets/eh-mbg-006-main.webp";
 import ehMbg007Main from "@/assets/eh-mbg-007-main.webp";
-import ehPrg004MainAsset from "@/assets/eh-prg-004-main.png.asset.json";
+import ehPrg004MainAsset from "@/assets/eh-prg-004-main.webp";
 import ehMbg008Main from "@/assets/eh-mbg-008-main.webp";
 import ehMbg009Main from "@/assets/eh-mbg-009-main.webp";
 import ehFbg010Main from "@/assets/eh-fbg-010-main.webp";
@@ -35,7 +35,7 @@ const allProducts = [
     name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
     category: "biker",
     categoryLabel: "Biker Gloves",
-    image: ehPrg005MainAsset.url,
+    image: ehPrg005MainAsset,
     description:
       "Professional long-cuff racing gloves in genuine cowhide leather (0.7–0.8mm) with TPU and carbon-fibre-style protection, reinforced palm and wrist, waterproof construction, adjustable closure, and touchscreen-compatible fingertips.",
   },
@@ -115,7 +115,7 @@ const allProducts = [
     name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
     category: "biker",
     categoryLabel: "Biker Gloves",
-    image: ehPrg004MainAsset.url,
+    image: ehPrg004MainAsset,
     description:
       "Professional long-cuff racing gloves in 100% genuine cowhide leather (0.7–0.8mm) with carbon-look TPU protection, reinforced palm and wrist, waterproof construction, adjustable closure, and touchscreen-compatible fingertips.",
   },
