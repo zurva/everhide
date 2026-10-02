@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
-import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
+import ehPrg005Main from "@/assets/eh-prg-005-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 
@@ -8,7 +8,7 @@ const categories = [
   {
     name: "Biker Gloves",
     description: "Professional racing & riding gloves with TPU armor and gauntlet protection",
-    image: ehMbg001Main,
+    image: ehPrg005Main,
     link: "/products?category=biker",
   },
   {
