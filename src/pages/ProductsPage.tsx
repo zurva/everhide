@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Search } from "lucide-react";
 import ehPrg005MainAsset from "@/assets/eh-prg-005-main.webp";
+import ehPrg001Main from "@/assets/eh-prg-001-main.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -29,6 +30,16 @@ import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
 
 const allProducts = [
+  {
+    id: "21",
+    productCode: "EH-PRG-001",
+    name: "Everhide Professional Long Cuff Motorcycle Racing Gloves",
+    category: "biker",
+    categoryLabel: "Biker Gloves",
+    image: ehPrg001Main,
+    description:
+      "Professional long-cuff racing gloves in 100% genuine cowhide leather (0.7–0.8mm) with TPU protective elements, reinforced knuckle and finger protection, TPU palm slider, extended side wrist armor, perforated ventilation, waterproof construction, dual adjustable Velcro wrist straps, and touchscreen-compatible fingertips.",
+  },
   {
     id: "20",
     productCode: "EH-PRG-005",
