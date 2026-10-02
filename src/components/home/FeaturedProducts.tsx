@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import ehPrg005MainAsset from "@/assets/eh-prg-005-main.webp";
 import ehPrg001Main from "@/assets/eh-prg-001-main.webp";
+import ehPrg002Main from "@/assets/eh-prg-002-main.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -30,6 +31,13 @@ const products = [
     category: "Biker Gloves",
     image: ehPrg001Main,
     productCode: "EH-PRG-001",
+  },
+  {
+    id: "22",
+    name: "Everhide Professional Long Cuff Motorcycle Racing Gloves",
+    category: "Biker Gloves",
+    image: ehPrg002Main,
+    productCode: "EH-PRG-002",
   },
   {
     id: "20",
