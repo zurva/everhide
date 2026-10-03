@@ -41,11 +41,11 @@ import ehPrg002_1 from "@/assets/eh-prg-002-1.webp";
 import ehPrg002_2 from "@/assets/eh-prg-002-2.webp";
 import ehPrg002_3 from "@/assets/eh-prg-002-3.webp";
 import ehPrg002_4 from "@/assets/eh-prg-002-4.webp";
-import ehPrg003Main from "@/assets/eh-prg-003-main.webp.asset.json";
-import ehPrg003_1 from "@/assets/eh-prg-003-1.webp.asset.json";
-import ehPrg003_2 from "@/assets/eh-prg-003-2.webp.asset.json";
-import ehPrg003_3 from "@/assets/eh-prg-003-3.webp.asset.json";
-import ehPrg003_4 from "@/assets/eh-prg-003-4.webp.asset.json";
+import ehPrg003Main from "@/assets/eh-prg-003-main.webp";
+import ehPrg003_1 from "@/assets/eh-prg-003-1.webp";
+import ehPrg003_2 from "@/assets/eh-prg-003-2.webp";
+import ehPrg003_3 from "@/assets/eh-prg-003-3.webp";
+import ehPrg003_4 from "@/assets/eh-prg-003-4.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg001_1 from "@/assets/eh-mbg-001-1.png";
 import ehMbg001_2 from "@/assets/eh-mbg-001-2.png";
@@ -371,7 +371,7 @@ const productsData: Record<string, {
     applications: ["Professional motorcycle racing", "Sport motorcycle riding", "High-performance riding", "Track riding", "Touring and long-distance riding", "Motorcycle gear retail", "Motorcycle racing equipment", "Wholesale distribution", "International B2B supply", "OEM and private-label orders"],
     overview: {"intro": "Everhide Professional Short Cuff Cowhide Motorcycle Racing Gloves are engineered for riders who demand protection, durability, ventilation, and a secure fit during professional racing, sport riding, and touring. Constructed from 100% genuine cowhide leather with a 0.7–0.8mm leather thickness, these gloves combine a premium leather build with an ergonomic short-cuff racing construction for a secure and controlled fit.\n\nDesigned with a compact short cuff and multiple protective elements, the gloves feature genuine carbon-fibre protection, TPU protective components, hard rubber finger padding, reinforced palm areas, a TPU palm protector, wrist protection, and reinforced finger and hand coverage. The gloves are also waterproof, making them suitable for riding in wet conditions and providing dependable protection across different riding environments.\n\nWith touchscreen-compatible fingertips, perforated leather panels for improved ventilation, cowhide leather lining, and professional racing construction, these gloves are designed as an all-season motorcycle racing glove. The ventilated perforated construction helps improve airflow while maintaining the protective structure required for performance-oriented riding.\n\nAvailable in all sizes, custom colors, and branding options, Everhide provides flexible OEM and private-label solutions for international brands, distributors, wholesalers, and B2B buyers.", "materialBuild": "Main Material: 100% Genuine Cowhide Leather\nLeather Thickness: 0.7–0.8mm\nProtection: TPU protective components + genuine carbon-fibre protective components + hard rubber finger padding\nPalm: Reinforced protective leather construction with TPU palm protector\nLining: 100% cowhide leather lining\nClosure: Adjustable Velcro wrist fastening\nConstruction: Short-cuff professional racing construction\nWater Resistance: Waterproof construction\nTouchscreen: Touchscreen-compatible fingertips\nBreathability: Perforated leather ventilation\nCustomization: Custom colors, combinations, sizing, and branding available", "cleaningCare": "Wipe gently with a soft dry cloth\nDo not machine wash\nAvoid harsh chemicals and chemical cleaning\nKeep away from direct heat\nAllow the gloves to dry naturally after exposure to water\nStore in a cool and dry place\nAvoid prolonged exposure to direct sunlight", "handling": "All Everhide gloves are carefully inspected before shipping to maintain consistent export-quality standards. Before and after extended use, inspect the gloves for cuts, tears, damaged protective components, loose stitching, or other signs of wear.", "warning": "These gloves are designed for motorcycle riding and should be used according to the riding conditions and intended application. They should not be worn in environments where there is a risk of entanglement with machinery or mechanical parts. Always use appropriate protective equipment when riding.", "additionalInfo": "Made in Pakistan. OEM and private-label production available for bulk orders."},
     specifications: {"feature": "Short Cuff Motorcycle Gloves", "type": "Professional Racing Gloves", "thickness": "0.7–0.8mm Genuine Cowhide Leather", "certification": "All-Season (Moderate Weather) | TPU & Carbon Fibre Knuckle + Palm Slider | Short Cuff", "packaging": "Individual polybag, 25 pairs per carton", "leadTime": "15-25 days after order confirmation"},
-    images: [ehPrg003Main.url, ehPrg003_1.url, ehPrg003_2.url, ehPrg003_3.url, ehPrg003_4.url],
+    images: [ehPrg003Main, ehPrg003_1, ehPrg003_2, ehPrg003_3, ehPrg003_4],
   },
   "20": {
     name: "Everhide Professional Racing Gauntlet Motorcycle Leather Gloves",
