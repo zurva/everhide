@@ -2,18 +2,18 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2 } from "lucide-react";
-import heroBanner1 from "@/assets/home-banner-1.webp.asset.json";
-import heroBanner2 from "@/assets/home-banner-2.webp.asset.json";
-import heroBanner3 from "@/assets/home-banner-3.webp.asset.json";
-import heroBanner4 from "@/assets/home-banner-4.webp.asset.json";
-import heroBanner5 from "@/assets/home-banner-5.webp.asset.json";
+import heroBanner1 from "@/assets/home-banner-1.webp";
+import heroBanner2 from "@/assets/home-banner-2.webp";
+import heroBanner3 from "@/assets/home-banner-3.webp";
+import heroBanner4 from "@/assets/home-banner-4.webp";
+import heroBanner5 from "@/assets/home-banner-5.webp";
 
 const slides: { src: string; position: string }[] = [
-  { src: heroBanner1.url, position: "right bottom" },
-  { src: heroBanner2.url, position: "right bottom" },
-  { src: heroBanner3.url, position: "right bottom" },
-  { src: heroBanner4.url, position: "right bottom" },
-  { src: heroBanner5.url, position: "right bottom" },
+  { src: heroBanner1, position: "right bottom" },
+  { src: heroBanner2, position: "right bottom" },
+  { src: heroBanner3, position: "right bottom" },
+  { src: heroBanner4, position: "right bottom" },
+  { src: heroBanner5, position: "right bottom" },
 ];
 
 const HeroSection = () => {
