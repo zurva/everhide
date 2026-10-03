@@ -267,6 +267,7 @@ const ContactPage = () => {
                       <option value="eh-mbg-001">EH-MBG-001 – Everhide Premium Professional Racing Gauntlet Motorbike Leather Gloves</option>
                       <option value="eh-mbg-002">EH-MBG-002 – Everhide Premium Professional Racing Gauntlet Motorcycle Gloves with Palm Slider Armor</option>
                       <option value="eh-mbg-003">EH-MBG-003 – Everhide Premium Cowhide Sport Motorcycle Gloves with Carbon Knuckle Protection</option>
+                      <option value="eh-prg-003">EH-PRG-003 – Everhide Professional Short Cuff Motorcycle Racing Gloves</option>
                       <option value="eh-mbg-004">EH-MBG-004 – Everhide Premium Motorbike Winter/Autumn Riding Gloves</option>
                       <option value="eh-mbg-005">EH-MBG-005 – Everhide Premium Short Cuff Leather Motorcycle Gloves with Dual TPU Knuckle & Palm Slider Protection</option>
                       <option value="eh-mbg-006">EH-MBG-006 – Everhide Premium Summer Motorcycle Gloves with Air Mesh Panels & Molded Knuckle Protection</option>
