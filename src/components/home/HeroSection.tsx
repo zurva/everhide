@@ -1,26 +1,23 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2 } from "lucide-react";
-import heroBanner1 from "@/assets/hero-banner-1.jpg";
-import heroBannerGloves3 from "@/assets/hero-banner-gloves-3.jpg";
-import heroBannerBoxing1 from "@/assets/hero-banner-boxing-1.jpg";
-import heroBannerBoxing2 from "@/assets/hero-banner-boxing-2.jpg";
-import heroBannerMobile from "@/assets/hero-banner-mobile.jpg";
+import heroBanner1 from "@/assets/home-banner-1.webp.asset.json";
+import heroBanner2 from "@/assets/home-banner-2.webp.asset.json";
+import heroBanner3 from "@/assets/home-banner-3.webp.asset.json";
+import heroBanner4 from "@/assets/home-banner-4.webp.asset.json";
+import heroBanner5 from "@/assets/home-banner-5.webp.asset.json";
 
-const desktopSlides: { src: string; position: string }[] = [
-  { src: heroBanner1, position: "center" },
-  { src: heroBannerBoxing1, position: "right center" },
-  { src: heroBannerGloves3, position: "center" },
-  { src: heroBannerBoxing2, position: "right center" },
+const slides: { src: string; position: string }[] = [
+  { src: heroBanner1.url, position: "right bottom" },
+  { src: heroBanner2.url, position: "right bottom" },
+  { src: heroBanner3.url, position: "right bottom" },
+  { src: heroBanner4.url, position: "right bottom" },
+  { src: heroBanner5.url, position: "right bottom" },
 ];
-const mobileSlides = [{ src: heroBannerMobile, position: "right bottom" }];
 
 const HeroSection = () => {
   const [active, setActive] = useState(0);
-  const isMobile = useIsMobile();
-  const slides = useMemo(() => (isMobile ? mobileSlides : desktopSlides), [isMobile]);
 
   useEffect(() => {
     setActive(0);
@@ -32,9 +29,9 @@ const HeroSection = () => {
     if (slides.length <= 1) return;
     const id = setInterval(() => {
       setActive((i) => (i + 1) % slides.length);
-    }, 2000);
+    }, 5000);
     return () => clearInterval(id);
-  }, [slides]);
+  }, []);
 
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden pt-16 lg:pt-24">
