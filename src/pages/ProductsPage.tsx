@@ -10,6 +10,7 @@ import { Search } from "lucide-react";
 import ehPrg005MainAsset from "@/assets/eh-prg-005-main.webp";
 import ehPrg002Main from "@/assets/eh-prg-002-main.webp";
 import ehPrg001Main from "@/assets/eh-prg-001-main.webp";
+import ehPrg003Main from "@/assets/eh-prg-003-main.webp";
 import ehMbg001Main from "@/assets/eh-mbg-001-main.webp";
 import ehMbg002Main from "@/assets/eh-mbg-002-main.webp";
 import ehMbg003Main from "@/assets/eh-mbg-003-main.webp";
@@ -90,6 +91,15 @@ const allProducts = [
     image: ehMbg003Main,
     description:
       "Sport riding gloves in 100% genuine cowhide leather (0.7–0.9mm) with carbon laminated knuckle armor, polyester mesh ventilation, perforated airflow panels, pre-curved fingers, and touchscreen-compatible fabric.",
+  },
+  {
+    id: "23",
+    productCode: "EH-PRG-003",
+    name: "Everhide Professional Short Cuff Motorcycle Racing Gloves",
+    category: "biker",
+    categoryLabel: "Biker Gloves",
+    description: "Professional short-cuff racing gloves in 100% genuine cowhide leather (0.7–0.8mm) with genuine carbon-fibre and TPU protection, hard rubber finger padding, TPU palm protector, reinforced wrist, waterproof construction, perforated ventilation, adjustable Velcro wrist strap, and touchscreen-compatible fingertips.",
+    image: ehPrg003Main,
   },
   {
     id: "4",
