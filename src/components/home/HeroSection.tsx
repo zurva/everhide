@@ -7,13 +7,18 @@ import heroBanner2 from "@/assets/home-banner-2.webp";
 import heroBanner3 from "@/assets/home-banner-3.webp";
 import heroBanner4 from "@/assets/home-banner-4.webp";
 import heroBanner5 from "@/assets/home-banner-5.webp";
+import mobileBanner1 from "@/assets/home-banner-1-mobile.webp";
+import mobileBanner2 from "@/assets/home-banner-2-mobile.webp";
+import mobileBanner3 from "@/assets/home-banner-3-mobile.webp";
+import mobileBanner4 from "@/assets/home-banner-4-mobile.webp";
+import mobileBanner5 from "@/assets/home-banner-5-mobile.webp";
 
-const slides: { src: string; position: string }[] = [
-  { src: heroBanner1, position: "right bottom" },
-  { src: heroBanner2, position: "right bottom" },
-  { src: heroBanner3, position: "right bottom" },
-  { src: heroBanner4, position: "right bottom" },
-  { src: heroBanner5, position: "right bottom" },
+const slides = [
+  { src: heroBanner1, mobile: mobileBanner1 },
+  { src: heroBanner2, mobile: mobileBanner2 },
+  { src: heroBanner3, mobile: mobileBanner3 },
+  { src: heroBanner4, mobile: mobileBanner4 },
+  { src: heroBanner5, mobile: mobileBanner5 },
 ];
 
 const HeroSection = () => {
@@ -22,9 +27,9 @@ const HeroSection = () => {
   useEffect(() => {
     setActive(0);
     // Preload all slides so transitions are instant
-    slides.forEach(({ src }) => {
+    slides.forEach(({ src, mobile }) => {
       const img = new Image();
-      img.src = src;
+      img.src = window.matchMedia("(max-width: 1023px)").matches ? mobile : src;
     });
     if (slides.length <= 1) return;
     const id = setInterval(() => {
@@ -34,24 +39,32 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden pt-16 lg:pt-24">
+    <section className="home-hero relative bg-secondary overflow-hidden lg:min-h-[700px] lg:flex lg:items-center" aria-label="EVERHIDE leather gloves">
       {/* Rotating background images */}
-      {slides.map(({ src, position }, i) => (
+      {slides.map(({ src, mobile }, i) => (
         <div
           key={i}
-          className={`absolute inset-0 bg-contain md:bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
+          className={`absolute inset-0 transition-opacity duration-1000 motion-reduce:transition-none ${
             active === i ? "opacity-100" : "opacity-0"
           }`}
-          style={{ backgroundImage: `url(${src})`, backgroundPosition: position }}
           aria-hidden="true"
-        />
+        >
+          <picture className="absolute inset-0 opacity-20 lg:hidden">
+            <source media="(max-width: 1023px)" srcSet={mobile} />
+            <img src={src} alt="" className="h-full w-full object-cover" />
+          </picture>
+          <picture className="home-hero-image">
+            <source media="(max-width: 1023px)" srcSet={mobile} />
+            <img src={src} alt="" width="1920" height="1080" className="h-full w-full object-contain lg:object-right" fetchPriority={i === 0 ? "high" : "auto"} decoding="async" />
+          </picture>
+        </div>
       ))}
 
       {/* Gradient for text legibility — stronger top fade on mobile, left-to-right on desktop */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/60 to-transparent md:bg-gradient-to-r md:from-black/85 md:via-black/60 md:to-transparent" />
+      <div className="home-hero-overlay absolute inset-0" />
 
       {/* Content */}
-      <div className="relative z-10 w-full px-6 md:px-12 lg:px-16">
+      <div className="relative z-10 w-full px-6 pb-8 md:px-12 lg:px-16 lg:py-16">
         <div className="max-w-2xl text-left space-y-6 animate-slide-up">
           <div className="inline-block">
             <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
@@ -59,12 +72,12 @@ const HeroSection = () => {
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground leading-tight">
             Quality Leather Gloves
             <span className="block text-primary">For Global Markets</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-white/85 max-w-lg">
+          <p className="text-lg md:text-xl text-secondary-foreground/85 max-w-lg">
             We export premium leather gloves and accessories, produced through our ISO-certified manufacturing partners, for wholesalers, importers, and distributors worldwide.
           </p>
 
@@ -76,12 +89,12 @@ const HeroSection = () => {
               </Button>
             </Link>
             <Link to="/products">
-              <Button size="lg" variant="outline" className="text-base bg-transparent border-white text-white hover:bg-white hover:text-secondary">
+              <Button size="lg" variant="outline" className="text-base bg-transparent border-secondary-foreground text-secondary-foreground hover:bg-secondary-foreground hover:text-secondary">
                 View Products
               </Button>
             </Link>
             <a href="/company-profile.pdf" download target="_blank" rel="noopener noreferrer">
-              <Button size="lg" variant="outline" className="text-base bg-transparent border-white text-white hover:bg-white hover:text-secondary">
+              <Button size="lg" variant="outline" className="text-base bg-transparent border-secondary-foreground text-secondary-foreground hover:bg-secondary-foreground hover:text-secondary">
                 <Building2 className="mr-2 h-5 w-5" />
                 Company Profile
               </Button>
@@ -91,14 +104,18 @@ const HeroSection = () => {
           {/* Slide indicators */}
           <div className="flex gap-2 pt-6">
             {slides.map((_, i) => (
-              <button
+              <Button
+                variant="ghost"
                 key={i}
                 onClick={() => setActive(i)}
                 aria-label={`Show slide ${i + 1}`}
-                className={`h-1.5 rounded-full transition-all ${
-                  active === i ? "w-8 bg-primary" : "w-4 bg-white/40 hover:bg-white/60"
+                aria-pressed={active === i}
+                className={`h-6 p-0 rounded-none transition-all motion-reduce:transition-none ${
+                  active === i ? "w-8" : "w-4"
                 }`}
-              />
+              >
+                <span className={`h-1.5 w-full rounded-full ${active === i ? "bg-primary" : "bg-secondary-foreground/40"}`} />
+              </Button>
             ))}
           </div>
         </div>

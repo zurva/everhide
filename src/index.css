@@ -143,6 +143,36 @@
 
 @layer components {
   /* Hero Section Styles */
+  .home-hero {
+    padding-top: calc(100% * 27 / 32 + 1.5rem);
+  }
+
+  .home-hero-image {
+    position: absolute;
+    inset: 0 0 auto;
+    display: block;
+    aspect-ratio: 32 / 27;
+  }
+
+  .home-hero-overlay {
+    background: linear-gradient(to bottom, transparent 0%, transparent 25%, hsl(var(--brand-black) / 0.15) 45%, hsl(var(--brand-black) / 0.85) 100%);
+  }
+
+  @media (min-width: 1024px) {
+    .home-hero {
+      padding-top: 0;
+    }
+
+    .home-hero-image {
+      inset: 0;
+      aspect-ratio: auto;
+    }
+
+    .home-hero-overlay {
+      background: linear-gradient(90deg, hsl(var(--brand-black) / 0.9) 0%, hsl(var(--brand-black) / 0.65) 40%, transparent 75%);
+    }
+  }
+
   .hero-gradient {
     background: linear-gradient(135deg, hsl(var(--brand-black)) 0%, hsl(var(--brand-charcoal)) 100%);
   }
