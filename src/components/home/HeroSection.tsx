@@ -6,9 +6,6 @@ import mobileBanner1 from "@/assets/home-banner-1-mobile.webp";
 import portraitBanner1 from "@/assets/home-banner-1-portrait.webp";
 
 const HeroSection = () => {
-  return () => clearInterval(id);
-  }, []);
-
   return (
     <section className="home-hero relative bg-secondary overflow-hidden" aria-label="EVERHIDE leather gloves">
       <picture className="home-hero-image">
@@ -58,7 +55,6 @@ const HeroSection = () => {
             </a>
           </div>
 
-        </div>
         </div>
       </div>
     </section>
