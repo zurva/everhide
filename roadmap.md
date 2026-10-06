@@ -6,4 +6,4 @@
 - [x] Verify all five banner images load and rotate in sequence.
 - [x] Adapt homepage banners for mobile/tablet without cropping gloves, preserving the five-second sequence.
 - [x] Verify banner framing and loading across mobile, tablet, and desktop sizes.
-- [ ] Replace the stacked banner layout with one integrated photo-and-text banner across screen sizes; verify all slides and leave other sections unchanged.
+- [x] Replace the stacked banner layout with one integrated photo-and-text banner across screen sizes; verify all slides and leave other sections unchanged.
