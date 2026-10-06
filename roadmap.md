@@ -7,4 +7,4 @@
 - [x] Adapt homepage banners for mobile/tablet without cropping gloves, preserving the five-second sequence.
 - [x] Verify banner framing and loading across mobile, tablet, and desktop sizes.
 - [x] Replace the stacked banner layout with one integrated photo-and-text banner across screen sizes; verify all slides and leave other sections unchanged.
-- [ ] Use only banner one as a static, single responsive photo; remove hero animations, duplication, and slideshow controls without other changes.
+- [x] Use only banner one as a static, single responsive photo; remove hero animations, duplication, and slideshow controls without other changes.
