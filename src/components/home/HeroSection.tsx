@@ -49,6 +49,10 @@ const HeroSection = () => {
           }`}
           aria-hidden="true"
         >
+          <picture className="home-hero-backdrop">
+            <source media="(max-width: 1023px)" srcSet={mobile} />
+            <img src={src} alt="" width="1920" height="1080" className="h-full w-full object-cover" decoding="async" />
+          </picture>
           <picture className="home-hero-image">
             <source media="(max-width: 1023px)" srcSet={mobile} />
             <img src={src} alt="" width="1920" height="1080" className="h-full w-full object-contain" fetchPriority={i === 0 ? "high" : "auto"} decoding="async" />
