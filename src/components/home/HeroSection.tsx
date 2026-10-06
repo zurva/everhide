@@ -39,7 +39,7 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <section className="home-hero relative bg-secondary overflow-hidden lg:min-h-[700px] lg:flex lg:items-center" aria-label="EVERHIDE leather gloves">
+    <section className="home-hero relative bg-secondary overflow-hidden" aria-label="EVERHIDE leather gloves">
       {/* Rotating background images */}
       {slides.map(({ src, mobile }, i) => (
         <div
@@ -49,39 +49,35 @@ const HeroSection = () => {
           }`}
           aria-hidden="true"
         >
-          <picture className="absolute inset-0 opacity-20 lg:hidden">
-            <source media="(max-width: 1023px)" srcSet={mobile} />
-            <img src={src} alt="" className="h-full w-full object-cover" />
-          </picture>
           <picture className="home-hero-image">
             <source media="(max-width: 1023px)" srcSet={mobile} />
-            <img src={src} alt="" width="1920" height="1080" className="h-full w-full object-contain lg:object-right" fetchPriority={i === 0 ? "high" : "auto"} decoding="async" />
+            <img src={src} alt="" width="1920" height="1080" className="h-full w-full object-contain" fetchPriority={i === 0 ? "high" : "auto"} decoding="async" />
           </picture>
         </div>
       ))}
 
-      {/* Gradient for text legibility — stronger top fade on mobile, left-to-right on desktop */}
+      {/* One continuous image with a responsive text-legibility overlay. */}
       <div className="home-hero-overlay absolute inset-0" />
 
       {/* Content */}
-      <div className="relative z-10 w-full px-6 pb-8 md:px-12 lg:px-16 lg:py-16">
-        <div className="max-w-2xl text-left space-y-6 animate-slide-up">
+      <div className="home-hero-content relative z-10 w-full">
+        <div className="home-hero-copy text-left animate-slide-up">
           <div className="inline-block">
-            <span className="bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
+            <span className="home-hero-eyebrow bg-primary/20 text-primary px-4 py-2 rounded-full text-sm font-medium backdrop-blur-sm">
               Premium Leather Goods Exporter
             </span>
           </div>
 
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-secondary-foreground leading-tight">
+          <h1 className="home-hero-title font-bold text-secondary-foreground leading-tight">
             Quality Leather Gloves
             <span className="block text-primary">For Global Markets</span>
           </h1>
 
-          <p className="text-lg md:text-xl text-secondary-foreground/85 max-w-lg">
+          <p className="home-hero-description text-secondary-foreground/85">
             We export premium leather gloves and accessories, produced through our ISO-certified manufacturing partners, for wholesalers, importers, and distributors worldwide.
           </p>
 
-          <div className="flex flex-wrap gap-4 pt-4">
+          <div className="home-hero-actions flex flex-wrap gap-3">
             <Link to="/contact">
               <Button size="lg" className="text-base">
                 Request a Quote
@@ -102,7 +98,7 @@ const HeroSection = () => {
           </div>
 
           {/* Slide indicators */}
-          <div className="flex gap-2 pt-6">
+          <div className="home-hero-indicators flex gap-2">
             {slides.map((_, i) => (
               <Button
                 variant="ghost"
