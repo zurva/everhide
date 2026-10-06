@@ -151,25 +151,12 @@
 
   .home-hero-image {
     position: absolute;
-    inset: auto 0 0;
-    aspect-ratio: 32 / 27;
+    inset: 0;
     display: block;
-    mask-image: linear-gradient(180deg, transparent, black 22%, black);
   }
 
   .home-hero-image img {
     object-position: right bottom;
-  }
-
-  .home-hero-backdrop {
-    position: absolute;
-    inset: 0;
-    display: block;
-    opacity: 0.5;
-  }
-
-  .home-hero-backdrop img {
-    object-position: right center;
   }
 
   .home-hero-overlay {
@@ -213,10 +200,6 @@
     font-size: 14px;
   }
 
-  .home-hero-indicators {
-    margin-top: 4px;
-  }
-
   @media (min-width: 640px) {
     .home-hero {
       min-height: 680px;
@@ -230,12 +213,6 @@
     .home-hero-copy {
       max-width: 54%;
       gap: 24px;
-    }
-
-    .home-hero-image {
-      inset: 50% 0 auto 30%;
-      transform: translateY(-50%);
-      mask-image: linear-gradient(180deg, transparent, black 22%, black 78%, transparent);
     }
 
     .home-hero-image img {
@@ -279,17 +256,6 @@
 
     .home-hero-eyebrow {
       font-size: 14px;
-    }
-
-    .home-hero-image {
-      inset: 0;
-      aspect-ratio: auto;
-      transform: none;
-      mask-image: none;
-    }
-
-    .home-hero-image img {
-      mask-image: none;
     }
 
     .home-hero-overlay {
