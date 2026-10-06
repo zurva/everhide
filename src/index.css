@@ -151,13 +151,14 @@
 
   .home-hero-image {
     position: absolute;
-    inset: 0;
+    inset: auto 0 0;
+    aspect-ratio: 32 / 27;
     display: block;
+    mask-image: linear-gradient(180deg, transparent, black 22%, black);
   }
 
   .home-hero-image img {
     object-position: right bottom;
-    mask-image: linear-gradient(180deg, transparent, black 18%, black);
   }
 
   .home-hero-backdrop {
@@ -232,12 +233,13 @@
     }
 
     .home-hero-image {
-      left: 30%;
+      inset: 50% 0 auto 30%;
+      transform: translateY(-50%);
+      mask-image: linear-gradient(180deg, transparent, black 22%, black 78%, transparent);
     }
 
     .home-hero-image img {
       object-position: right center;
-      mask-image: linear-gradient(180deg, transparent, black 25%, black 75%, transparent);
     }
 
     .home-hero-overlay {
@@ -281,6 +283,9 @@
 
     .home-hero-image {
       inset: 0;
+      aspect-ratio: auto;
+      transform: none;
+      mask-image: none;
     }
 
     .home-hero-image img {
