@@ -52,6 +52,11 @@
     --brand-charcoal: 0 0% 20%;
     --brand-gray: 0 0% 50%;
     --brand-light-gray: 0 0% 96%;
+    --home-banner-brightness: 1.22;
+    --home-banner-saturation: 1.1;
+    --home-banner-contrast: 1.04;
+    --home-banner-overlay-mobile: linear-gradient(180deg, hsl(var(--brand-black) / 0.8) 0%, hsl(var(--brand-black) / 0.5) 48%, transparent 82%);
+    --home-banner-overlay-desktop: linear-gradient(90deg, hsl(var(--brand-black) / 0.72) 0%, hsl(var(--brand-black) / 0.38) 35%, hsl(var(--brand-black) / 0.08) 58%, transparent 75%);
     
     /* Typography */
     --font-heading: 'Montserrat', sans-serif;
@@ -143,6 +148,20 @@
 
 @layer components {
   /* Hero Section Styles */
+  .home-banner-image {
+    filter: brightness(var(--home-banner-brightness)) saturate(var(--home-banner-saturation)) contrast(var(--home-banner-contrast));
+  }
+
+  .home-banner-overlay {
+    background: var(--home-banner-overlay-mobile);
+  }
+
+  @media (min-width: 768px) {
+    .home-banner-overlay {
+      background: var(--home-banner-overlay-desktop);
+    }
+  }
+
   .hero-gradient {
     background: linear-gradient(135deg, hsl(var(--brand-black)) 0%, hsl(var(--brand-charcoal)) 100%);
   }
