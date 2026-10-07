@@ -39,7 +39,7 @@ const HeroSection = () => {
       {slides.map(({ src, position }, i) => (
         <div
           key={i}
-          className={`absolute inset-0 bg-contain md:bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
+          className={`home-banner-image absolute inset-0 bg-contain md:bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
             active === i ? "opacity-100" : "opacity-0"
           }`}
           style={{ backgroundImage: `url(${src})`, backgroundPosition: position }}
@@ -47,8 +47,8 @@ const HeroSection = () => {
         />
       ))}
 
-      {/* Gradient for text legibility — stronger top fade on mobile, left-to-right on desktop */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/60 to-transparent md:bg-gradient-to-r md:from-black/85 md:via-black/60 md:to-transparent" />
+      {/* Keep contrast behind the copy without dimming the product imagery. */}
+      <div className="home-banner-overlay absolute inset-0" />
 
       {/* Content */}
       <div className="relative z-10 w-full px-6 md:px-12 lg:px-16">
