@@ -46,11 +46,11 @@ const HeroSection = () => {
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden pt-16 lg:pt-24">
       {/* Rotating background images */}
-      {slides.map(({ src, position }, i) => (
+      {activeSlides.map(({ src, position }, i) => (
         <div
           key={i}
-          className={`home-banner-image absolute inset-0 bg-contain md:bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
-            active === i ? "opacity-100" : "opacity-0"
+          className={`home-banner-image absolute inset-0 bg-cover bg-no-repeat bg-secondary transition-opacity duration-1000 ${
+            activeIndex === i ? "opacity-100" : "opacity-0"
           }`}
           style={{ backgroundImage: `url(${src})`, backgroundPosition: position }}
           aria-hidden="true"
@@ -99,18 +99,20 @@ const HeroSection = () => {
           </div>
 
           {/* Slide indicators */}
-          <div className="flex gap-2 pt-6">
-            {slides.map((_, i) => (
-              <button
-                key={i}
-                onClick={() => setActive(i)}
-                aria-label={`Show slide ${i + 1}`}
-                className={`h-1.5 rounded-full transition-all ${
-                  active === i ? "w-8 bg-primary" : "w-4 bg-white/40 hover:bg-white/60"
-                }`}
-              />
-            ))}
-          </div>
+          {activeSlides.length > 1 && (
+            <div className="flex gap-2 pt-6">
+              {slides.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setActive(i)}
+                  aria-label={`Show slide ${i + 1}`}
+                  className={`h-1.5 rounded-full transition-all ${
+                    activeIndex === i ? "w-8 bg-primary" : "w-4 bg-white/40 hover:bg-white/60"
+                  }`}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </section>
