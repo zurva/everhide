@@ -2,11 +2,13 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Building2 } from "lucide-react";
+import { useIsMobile } from "@/hooks/use-mobile";
 import heroBanner1 from "@/assets/home-banner-1.webp";
 import heroBanner2 from "@/assets/home-banner-2.webp";
 import heroBanner3 from "@/assets/home-banner-3.webp";
 import heroBanner4 from "@/assets/home-banner-4.webp";
 import heroBanner5 from "@/assets/home-banner-5.webp";
+import heroBannerMobile from "@/assets/home-banner-mobile.webp";
 
 const slides: { src: string; position: string }[] = [
   { src: heroBanner1, position: "right bottom" },
@@ -16,8 +18,13 @@ const slides: { src: string; position: string }[] = [
   { src: heroBanner5, position: "right bottom" },
 ];
 
+const mobileSlides: { src: string; position: string }[] = [
+  { src: heroBannerMobile, position: "center" },
+];
+
 const HeroSection = () => {
   const [active, setActive] = useState(0);
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     setActive(0);
@@ -32,6 +39,9 @@ const HeroSection = () => {
     }, 5000);
     return () => clearInterval(id);
   }, []);
+
+  const activeSlides = isMobile ? mobileSlides : slides;
+  const activeIndex = isMobile ? 0 : active % slides.length;
 
   return (
     <section className="relative min-h-[600px] lg:min-h-[700px] flex items-center overflow-hidden pt-16 lg:pt-24">
