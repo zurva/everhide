@@ -4,3 +4,4 @@
 - Bundle optimized product WebP photos when the asset service fails on the current host so galleries remain visible on self-hosted deployments.
 - Bundle optimized homepage banner WebP images when asset delivery fails on the current host so the slideshow remains visible on self-hosted deployments.
 - Keep new product entries aligned across the catalog, featured collection, detail pages, and inquiry selector so buyers can discover and inquire about every model.
+- Render optional product-specification fields by their supplied names and only when present, so category-specific details remain accurate without invented placeholder values.

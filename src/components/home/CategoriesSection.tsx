@@ -3,6 +3,7 @@ import { ArrowRight } from "lucide-react";
 import ehPrg005Main from "@/assets/eh-prg-005-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
+import ehWg002Main from "@/assets/eh-wg-002-main.webp";
 
 const categories = [
   {
@@ -23,6 +24,12 @@ const categories = [
     image: ehBg003Main,
     link: "/products?category=boxing",
   },
+  {
+    name: "Working Gloves",
+    description: "Leather-palm rigger gloves for construction, warehousing, and general industrial work",
+    image: ehWg002Main,
+    link: "/products?category=working",
+  },
 ];
 
 const CategoriesSection = () => {
@@ -39,7 +46,7 @@ const CategoriesSection = () => {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
           {categories.map((category, index) => (
             <Link
               key={index}

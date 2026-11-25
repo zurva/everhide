@@ -17,6 +17,7 @@ const Footer = () => {
     { name: "Biker Gloves", path: "/products?category=biker" },
     { name: "Dressing Gloves", path: "/products?category=dressing" },
     { name: "Boxing Gloves", path: "/products?category=boxing" },
+    { name: "Working Gloves", path: "/products?category=working" },
   ];
 
   return (

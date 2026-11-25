@@ -30,8 +30,19 @@ import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
+import ehWg002Main from "@/assets/eh-wg-002-main.webp";
 
 const allProducts = [
+  {
+    id: "24",
+    productCode: "EH-WG-002",
+    name: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves",
+    category: "working",
+    categoryLabel: "Working Gloves",
+    image: ehWg002Main,
+    description:
+      "Leather-palm rigger work gloves with a breathable striped cotton canvas back, reinforced fingertips, and a stiffened safety cuff for construction, warehousing, and industrial work.",
+  },
   {
     id: "21",
     productCode: "EH-PRG-001",
@@ -268,6 +279,7 @@ const categories = [
   { value: "biker", label: "Biker Gloves" },
   { value: "dressing", label: "Dressing Gloves" },
   { value: "boxing", label: "Boxing Gloves" },
+  { value: "working", label: "Working Gloves" },
 ];
 
 const ProductsPage = () => {
@@ -288,14 +300,14 @@ const ProductsPage = () => {
   return (
     <Layout>
       <SEO
-        title="Leather Gloves Catalog – Biker & Dressing | EVERHIDE Global"
-        description="Browse premium leather gloves from EVERHIDE Global: biker, racing, dressing and fashion gloves. Bulk and private label production from Pakistan."
-        keywords="leather gloves catalog, biker gloves wholesale, dressing gloves exporter, bulk leather gloves Pakistan"
+        title="Leather Gloves Catalog – Biker, Boxing & Working | EVERHIDE Global"
+        description="Browse premium leather gloves from EVERHIDE Global: biker, racing, dressing, boxing, and work gloves. Bulk and private label production from Pakistan."
+        keywords="leather gloves catalog, biker gloves wholesale, dressing gloves exporter, boxing gloves, working gloves wholesale, bulk leather gloves Pakistan"
       />
       {/* Hero Section */}
       <PageBanner
         title="Our Products"
-        subtitle="Explore our range of premium leather gloves across our Biker and Dressing categories, designed for global B2B markets."
+        subtitle="Explore premium biker, dressing, boxing, and working gloves designed for global B2B markets."
       />
 
       {/* Filters & Products */}

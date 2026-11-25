@@ -184,6 +184,11 @@ import ehBg005_2 from "@/assets/eh-bg-005-2.jpg";
 import ehBg005_3 from "@/assets/eh-bg-005-3.jpg";
 import ehBg005_4 from "@/assets/eh-bg-005-4.jpg";
 import ehBg005_5 from "@/assets/eh-bg-005-5.jpg";
+import ehWg002Main from "@/assets/eh-wg-002-main.webp";
+import ehWg002_1 from "@/assets/eh-wg-002-1.webp";
+import ehWg002_2 from "@/assets/eh-wg-002-2.webp";
+import ehWg002_3 from "@/assets/eh-wg-002-3.webp";
+import ehWg002_4 from "@/assets/eh-wg-002-4.webp";
 
 const productsData: Record<string, {
   name: string;
@@ -210,13 +215,74 @@ const productsData: Record<string, {
   specifications: {
     feature?: string;
     type?: string;
+    productType?: string;
+    productCategory?: string;
     weight?: string;
+    season?: string;
+    protectionLevel?: string;
+    cuffStyle?: string;
     thickness: string;
-    certification: string;
+    certification?: string;
     packaging: string;
     leadTime: string;
   };
 }> = {
+  "24": {
+    name: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves",
+    productCode: "EH-WG-002",
+    category: "Working Gloves",
+    images: [ehWg002Main, ehWg002_1, ehWg002_2, ehWg002_3, ehWg002_4],
+    description: "Made from 100% genuine soft cowhide leather with a thickness of 0.7–0.9mm paired with breathable striped heavy-duty cotton canvas textile, designed for industrial workers, builders, and warehouse teams who demand reliable palm protection, flexibility, and wrist safety.\n\n• Front: 100% genuine soft cowhide leather palm with Gunn cut construction, wing thumb, and leather pulse protector patch\n• Back: Breathable striped cotton canvas back with soft leather knuckle strap, leather-capped fingertips, and full leather index finger\n• Leather Thickness: 0.7–0.9mm premium-grade soft cowhide\n• Textile Material: Heavy-duty woven striped cotton/poly canvas back and cuff\n• Liner: Unlined interior for maximum breathability, tactile feel, and lightweight comfort\n• Thumb Design: Ergonomic wing thumb for natural grip and reduced hand fatigue\n• Cuff: Stiffened rubberized safety gauntlet cuff with green hemmed fabric binding\n• Wrist Fit: Shirred elastic back wrist for secure fit and debris protection\n• Stitching: Double-stitched high-tensile polyester thread on stress points, knuckle strap, and fingertips\n• Logo Branding: Everhide logo printed in black on back cuff (branding customizable on buyer request)\n• Color Options: Available in different leather shades and striped canvas patterns\n\nStandard Color Combinations:\n\n• White / Light Grey Soft Leather with Green / Red / Cream Striped Canvas (Green Cuff Binding)\n• Natural Cream Leather with Blue / Red Striped Canvas\n• Grey Leather with Navy / Yellow Striped Canvas\n• Other leather and canvas color combinations can be implemented on the request of buyer\n\nSpecial Finishes & Custom Options:\n\n• Water-repellent / oil-resistant soft leather treatment available\n• Fleece or Thinsulate winter lining options available on bulk order request\n• OEM private label production available\n• Custom logo printing, heat embossing, or woven labels available for bulk orders\n\n• Sizes: From Small (S) to 3XL\n• Custom Orders: Special sizes possible at extra cost\n• Usage: All-purpose hand protection for construction, material handling, rigging, warehousing, and industrial work\n• Origin: Made in Pakistan",
+    material: "Genuine Soft Cowhide Leather & Heavy-Duty Woven Cotton Canvas (Unlined)",
+    colors: [
+      "White / Light Grey Soft Leather with Green / Red / Cream Striped Canvas",
+      "Natural Cream Leather with Blue / Red Striped Canvas",
+      "Grey Leather with Navy / Yellow Striped Canvas",
+      "Custom leather and canvas combinations",
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL", "3XL"],
+    moq: "25 pairs",
+    features: [
+      "100% genuine soft cowhide leather palm, index finger, and thumb",
+      "Supple 0.7–0.9mm leather for high dexterity and comfort",
+      "Breathable striped heavy-duty cotton canvas back",
+      "Unlined interior for lightweight feel, airflow, and direct tactile control",
+      "Reinforced soft leather knuckle strap and leather-capped fingertips",
+      "Leather pulse/artery protector patch at front wrist",
+      "Ergonomic wing thumb and Gunn cut palm construction",
+      "Stiffened safety cuff with reinforced green fabric binding",
+      "Shirred elastic wrist for a secure, snug fit",
+      "Double-stitched high-strength seams at stress points",
+      "Sizes from S to 3XL",
+      "Custom sizes, canvas patterns, and optional winter linings available",
+    ],
+    applications: [
+      "Construction, scaffolding, and general contracting",
+      "Warehousing, logistics, and heavy material handling",
+      "Rigging, cable handling, and steelwork",
+      "Agriculture, landscaping, and timber handling",
+      "Maintenance, assembly, and industrial plant operations",
+      "Wholesale, industrial safety supply, and international B2B distribution",
+    ],
+    overview: {
+      intro: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves are engineered for construction crews, warehouse handlers, and industrial tradespeople. Combining a 100% genuine soft cowhide leather palm with a breathable striped heavy-duty textile back and unlined interior, these rigger-style work gloves deliver supple grip, knuckle and fingertip reinforcement, and extended wrist protection without added bulk. Featuring a leather knuckle strap, leather pulse protector, wing thumb, and rubberized safety cuff, they provide cool comfort and durability throughout demanding shifts.\n\nDesigned for export markets and bulk buyers, Everhide leather-palm work gloves deliver consistent quality, breathability, and customizable branding solutions for international B2B customers.",
+      materialBuild: "Leather Thickness: 0.7–0.9mm\nPalm & Reinforcements: Genuine Soft Cowhide Leather\nBack & Cuff Textile: Heavy-Duty Striped Woven Cotton Canvas\nInterior: Unlined (Breathable Natural Hide & Canvas)\nPalm Cut: Gunn Cut Pattern with Wing Thumb\nKnuckle & Finger Guard: Soft Leather Knuckle Strap & Leather Fingertip Caps\nWrist: Shirred Elastic Back with Leather Pulse Patch\nCuff Style: Stiffened Safety Cuff with Rolled Fabric Binding",
+      cleaningCare: "Brush off loose dirt and wipe leather gently with a soft damp cloth\nDo not machine wash or tumble dry\nAvoid harsh chemical solvents or bleach\nAir dry naturally away from direct heat sources\nStore in a cool and dry place",
+      handling: "All Everhide work gloves are carefully inspected before shipping to ensure export-grade quality standards. Before each use, inspect gloves for any cuts, tears, punctures, or seam damage, and replace immediately if compromised.",
+      warning: "Gloves should not be worn in environments where there is a risk of getting caught in moving machinery or rotating parts. Not intended for handling open flames, extreme molten hazards, or corrosive chemicals unless specifically certified for such use. Always select appropriate hand protection according to your workplace safety requirements.",
+      additionalInfo: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves combine a 100% genuine soft cowhide leather palm with a breathable striped heavy-duty textile back and unlined interior for comfort, grip, and extended wrist protection during demanding work shifts. Designed for export markets and bulk buyers, they offer customizable branding solutions for international B2B customers.",
+    },
+    specifications: {
+      productType: "Leather Palm & Canvas Rigger Work Gloves",
+      productCategory: "Industrial / Construction Safety Work Gloves",
+      season: "All-Season / Warm Weather (Construction, Warehousing & General Work)",
+      protectionLevel: "Palm, Knuckle, Fingertip & Wrist Abrasion Protection",
+      cuffStyle: "Stiffened Safety Cuff with Shirred Elastic Wrist",
+      thickness: "0.7–0.9mm Genuine Soft Cowhide Leather",
+      packaging: "Individual polybag, 25 pairs per carton",
+      leadTime: "15-25 days after order confirmation",
+    },
+  },
   "21": {
     name: "Everhide Professional Long Cuff Motorcycle Racing Gloves",
     productCode: "EH-PRG-001",
@@ -2082,6 +2148,18 @@ const ProductDetailPage = () => {
               <TabsContent value="specifications" className="pt-10">
                 <div className="max-w-5xl">
                   <div className="grid md:grid-cols-3 gap-4 mb-8">
+                    {product.specifications.productType && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Product Type</h4>
+                        <p className="text-foreground font-medium">{product.specifications.productType}</p>
+                      </div>
+                    )}
+                    {product.specifications.productCategory && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Category</h4>
+                        <p className="text-foreground font-medium">{product.specifications.productCategory}</p>
+                      </div>
+                    )}
                     {product.specifications.feature && (
                       <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
                         <h4 className="font-semibold mb-2 text-primary">Gloves Feature</h4>
@@ -2100,14 +2178,34 @@ const ProductDetailPage = () => {
                         <p className="text-foreground font-medium">{product.specifications.weight}</p>
                       </div>
                     )}
+                    {product.specifications.season && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Season</h4>
+                        <p className="text-foreground font-medium">{product.specifications.season}</p>
+                      </div>
+                    )}
+                    {product.specifications.protectionLevel && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Protection Level</h4>
+                        <p className="text-foreground font-medium">{product.specifications.protectionLevel}</p>
+                      </div>
+                    )}
+                    {product.specifications.cuffStyle && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Cuff Style</h4>
+                        <p className="text-foreground font-medium">{product.specifications.cuffStyle}</p>
+                      </div>
+                    )}
                     <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
                       <h4 className="font-semibold mb-2 text-primary">Thickness</h4>
                       <p className="text-foreground font-medium">{product.specifications.thickness}</p>
                     </div>
-                    <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
-                      <h4 className="font-semibold mb-2 text-primary">Certification</h4>
-                      <p className="text-foreground font-medium">{product.specifications.certification}</p>
-                    </div>
+                    {product.specifications.certification && (
+                      <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
+                        <h4 className="font-semibold mb-2 text-primary">Certification</h4>
+                        <p className="text-foreground font-medium">{product.specifications.certification}</p>
+                      </div>
+                    )}
                     <div className="bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl p-6 border border-primary/20">
                       <h4 className="font-semibold mb-2 text-primary">Packaging</h4>
                       <p className="text-foreground font-medium">{product.specifications.packaging}</p>
