@@ -24,9 +24,17 @@ import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
+import ehWg001Main from "@/assets/eh-wg-001-main.webp";
 import ehWg002Main from "@/assets/eh-wg-002-main.webp";
 
 const products = [
+  {
+    id: "25",
+    name: "Everhide Premium Genuine Soft Leather Working Gloves",
+    category: "Working Gloves",
+    image: ehWg001Main,
+    productCode: "EH-WG-001",
+  },
   {
     id: "24",
     name: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves",

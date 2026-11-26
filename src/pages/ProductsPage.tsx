@@ -30,9 +30,20 @@ import ehBg002Main from "@/assets/eh-bg-002-main.jpeg";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
 import ehBg004Main from "@/assets/eh-bg-004-main.jpg";
 import ehBg005Main from "@/assets/eh-bg-005-main.jpg";
+import ehWg001Main from "@/assets/eh-wg-001-main.webp";
 import ehWg002Main from "@/assets/eh-wg-002-main.webp";
 
 const allProducts = [
+  {
+    id: "25",
+    productCode: "EH-WG-001",
+    name: "Everhide Premium Genuine Soft Leather Working Gloves",
+    category: "working",
+    categoryLabel: "Working Gloves",
+    image: ehWg001Main,
+    description:
+      "Premium soft cowhide driver work gloves with Gunn cut palm, keystone thumb, and shirred elastic wrist for comfort, dexterity, and everyday work.",
+  },
   {
     id: "24",
     productCode: "EH-WG-002",

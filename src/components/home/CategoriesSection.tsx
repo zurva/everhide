@@ -3,7 +3,7 @@ import { ArrowRight } from "lucide-react";
 import ehPrg005Main from "@/assets/eh-prg-005-main.webp";
 import ehDg001Main from "@/assets/eh-dg-001-main.webp";
 import ehBg003Main from "@/assets/eh-bg-003-main.jpg";
-import ehWg002Main from "@/assets/eh-wg-002-main.webp";
+import ehWg001Main from "@/assets/eh-wg-001-main.webp";
 
 const categories = [
   {
@@ -27,7 +27,7 @@ const categories = [
   {
     name: "Working Gloves",
     description: "Leather-palm rigger gloves for construction, warehousing, and general industrial work",
-    image: ehWg002Main,
+    image: ehWg001Main,
     link: "/products?category=working",
   },
 ];

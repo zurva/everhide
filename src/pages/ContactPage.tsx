@@ -284,6 +284,7 @@ const ContactPage = () => {
                       <option value="eh-bg-003">EH-BG-003 – Everhide Professional Cowhide Leather Training & Sparring Boxing Gloves</option>
                       <option value="eh-bg-004">EH-BG-004 – Everhide Professional Lace-Up Competition Boxing Gloves</option>
                       <option value="eh-bg-005">EH-BG-005 – Everhide Professional Lace-Up Competition Boxing Gloves – Red Edition</option>
+                      <option value="eh-wg-001">EH-WG-001 – Everhide Premium Genuine Soft Leather Working Gloves</option>
                       <option value="eh-wg-002">EH-WG-002 – Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves</option>
                       <option value="other">Other</option>
                     </select>

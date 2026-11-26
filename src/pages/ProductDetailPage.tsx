@@ -184,6 +184,11 @@ import ehBg005_2 from "@/assets/eh-bg-005-2.jpg";
 import ehBg005_3 from "@/assets/eh-bg-005-3.jpg";
 import ehBg005_4 from "@/assets/eh-bg-005-4.jpg";
 import ehBg005_5 from "@/assets/eh-bg-005-5.jpg";
+import ehWg001Main from "@/assets/eh-wg-001-main.webp";
+import ehWg001_1 from "@/assets/eh-wg-001-1.webp";
+import ehWg001_2 from "@/assets/eh-wg-001-2.webp";
+import ehWg001_3 from "@/assets/eh-wg-001-3.webp";
+import ehWg001_4 from "@/assets/eh-wg-001-4.webp";
 import ehWg002Main from "@/assets/eh-wg-002-main.webp";
 import ehWg002_1 from "@/assets/eh-wg-002-1.webp";
 import ehWg002_2 from "@/assets/eh-wg-002-2.webp";
@@ -227,6 +232,62 @@ const productsData: Record<string, {
     leadTime: string;
   };
 }> = {
+  "25": {
+    name: "Everhide Premium Genuine Soft Leather Working Gloves",
+    productCode: "EH-WG-001",
+    category: "Working Gloves",
+    images: [ehWg001Main, ehWg001_1, ehWg001_2, ehWg001_3, ehWg001_4],
+    description: "Made from 100% genuine premium soft cowhide leather, designed for drivers, tradespeople, and workers who demand superior dexterity, tactile sensitivity, and all-day comfort.\n\n• Front: 100% genuine soft cowhide leather palm with Gunn cut construction\n• Back: Soft cowhide leather back with shirred elastic wrist for snug fit\n• Leather Thickness: 0.7–0.9mm premium-grade soft cowhide\n• Thumb Design: Ergonomic double-stitched keystone thumb for enhanced flexibility and reduced hand fatigue\n• Cuff: Slip-on open driver cuff with color-coded hemmed fabric binding\n• Wrist Fit: Shirred elastic back wrist for secure slip-on fit and debris protection\n• Stitching: Double-stitched high-tensile polyester thread on stress points and fingers\n• Logo Branding: Everhide logo printed in black on back of hand (branding customizable on buyer request)\n• Color Options: Available in different leather shades and cuff binding colors\n\nStandard Color Combinations:\n\n• Gold / Yellow (with matching yellow hem binding)\n• Natural Cream / Tan\n• Dark Brown\n• Grey\n• Other colors and color-coded size cuff bindings can be implemented on the request of buyer\n\nSpecial Finishes & Custom Options:\n\n• Water-repellent / oil-resistant soft leather treatment available\n• Fleece or Thinsulate winter lining options available\n• OEM private label production available\n• Custom logo printing, heat embossing, or woven labels available for bulk orders\n\n• Sizes: From Small (S) to 3XL\n• Custom Orders: Special sizes possible at extra cost\n• Usage: Supple, comfortable hand protection for driving, warehousing, light construction, and daily work\n• Origin: Made in Pakistan",
+    material: "Genuine Soft Cowhide Leather",
+    colors: [
+      "Gold / Yellow with matching yellow hem binding",
+      "Natural Cream / Tan",
+      "Dark Brown",
+      "Grey",
+      "Custom leather shades and cuff binding colors",
+    ],
+    sizes: ["S", "M", "L", "XL", "XXL", "3XL"],
+    moq: "25 pairs",
+    features: [
+      "100% genuine soft cowhide leather construction",
+      "Supple 0.7–0.9mm leather for high dexterity",
+      "Ergonomic double-stitched keystone thumb for enhanced mobility",
+      "Gunn cut palm pattern for comfort and reduced seam irritation",
+      "Shirred elastic wrist for a secure, snug fit",
+      "Slip-on cuff with reinforced stitched fabric binding",
+      "Double-stitched high-strength seams at the thumb and fingers",
+      "Naturally breathable, flexible, and soft-touch finish",
+      "Multiple leather colors and size-coded cuff bindings available",
+      "Sizes from S to 3XL",
+      "Custom sizes and linings available",
+    ],
+    applications: [
+      "Truck driving, fleet transport, and delivery operations",
+      "Warehousing, logistics, and material handling",
+      "Light construction, carpentry, and general contracting",
+      "Agriculture, farming, and landscaping",
+      "Forklift, crane, and machinery operation",
+      "Wholesale, industrial safety supply, and international B2B distribution",
+    ],
+    overview: {
+      intro: "Everhide Premium Genuine Soft Leather Driver Work Gloves are engineered for professional drivers, equipment operators, and tradespeople who prioritize comfort and dexterity. Manufactured from 100% genuine soft cowhide leather, these driver-style gloves combine natural suppleness and tactile control with reliable abrasion resistance. Featuring an ergonomic keystone thumb, Gunn cut palm design, and shirred elastic wrist, they provide an immediate broken-in feel and lasting comfort during extended shifts.\n\nDesigned for export markets and bulk buyers, Everhide soft leather work gloves deliver superior comfort, consistent sizing, and customizable branding solutions for international B2B customers.",
+      materialBuild: "Leather Thickness: 0.7–0.9mm\nMaterial: Genuine Soft Cowhide Leather\nPalm Cut: Gunn Cut Pattern\nThumb Style: Reinforced Keystone Thumb\nWrist: Shirred Elastic Back\nCuff Finish: Rolled Fabric Binding Hem\nStitching: Double-Stitched Seams",
+      cleaningCare: "Brush off loose dirt and wipe gently with a soft damp cloth\nDo not machine wash or tumble dry\nAvoid harsh chemical solvents\nAir dry naturally away from direct heat sources\nApply leather conditioner periodically to preserve softness\nStore in a cool and dry place",
+      handling: "All Everhide work gloves are carefully inspected before shipping to ensure export-grade quality standards. Before each use, inspect gloves for any cuts, tears, punctures, or seam damage, and replace immediately if compromised.",
+      warning: "Gloves should not be worn in environments where there is a risk of getting caught in moving machinery or rotating parts. Not intended for handling open flames, extreme molten hazards, or corrosive chemicals unless specifically certified for such use. Always select appropriate hand protection according to your workplace safety requirements.",
+      additionalInfo: "Designed for export markets and bulk buyers, Everhide soft leather work gloves deliver superior comfort, consistent sizing, and customizable branding solutions for international B2B customers.",
+    },
+    specifications: {
+      productType: "Soft Leather Driver Work Gloves",
+      productCategory: "Industrial / Utility Work Gloves",
+      season: "All-Season (Driving & General Work)",
+      protectionLevel: "Abrasion & Grip Protection + Keystone Thumb Reinforcement",
+      cuffStyle: "Slip-On Cuff with Shirred Elastic Wrist",
+      thickness: "0.7–0.9mm Genuine Soft Cowhide Leather",
+      packaging: "Individual polybag, 25 pairs per carton",
+      leadTime: "15-25 days after order confirmation",
+    },
+  },
   "24": {
     name: "Everhide Soft Leather Palm & Striped Canvas Safety Cuff Rigger Work Gloves",
     productCode: "EH-WG-002",
